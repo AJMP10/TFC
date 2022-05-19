@@ -1,0 +1,72 @@
+{
+    "NAVBAR":{
+        "Sesiones": "Sesiones",
+        "Tutoriales": "Tutoriales",
+        "Contacto": "Contacto",
+        "AcercaDe": "Acerca de",
+        "Español": "Español",
+        "Ingles": "Inglés",
+        "Japones": "Japonés",
+        "Italiano": "Italiano"
+    },
+    "HOME":{
+        "Informacion": "Diseña tus tareas y sesiones de entrenamiento con nosotros",
+        "SaberMas":"Saber más"
+    },
+    "SESIONES":{
+        "Nombre":"Nombre",
+        "Duracion":"Duración",
+        "Objetivos":"Objetivos",
+        "Dimensiones":"Dimensiones",
+        "LabelImagen":"Si lo quieres con imagen pulse aquí",
+        "Imagen":"Imagen",
+        "Descripcion":"Descripción",
+        "GenerarPDF":"Generar PDF",
+        "Descargar":"Descargar",
+        "BorrarTrazos":"Borrar trazos"
+    },
+    "TUTORIALES":{
+
+    },
+    "CONTACTO":{
+        "Contacto":"CONTACTO",
+        "LabelContacto":"Síguenos en redes sociales y escríbenos para cualquier consulta y sugerencia",
+        "Twitter":"Twitter",
+        "Youtube":"YouTube",
+        "DireccionEmail":"underdogtowin@gmail.com",
+        "ConsultaRapida":"Consulta rápida",
+        "Nombre":"Nombre",
+        "SegundoNombre":"Primer apellido",
+        "Apellidos":"Segundo apellido",
+        "Email":"Email",
+        "Consulta":"Consulta",
+        "Enviar":"Enviar"
+    },
+    "ACERCADE":{
+        "QuienSoy":"¿Quién soy?",
+        "InformacionPersonal":"Antonio José Mata Periáñez, nacido el 11 de Agosto de 1995 y desarrollador de UnderdogToWin.",
+        "InformacionAcademica":"Técnico Superior en Desarrollo de Aplicaciones Web, Entrenador de Fútbol (UEFA A) y jugador de hobbie",
+        "InformacionEntrenador":"Actualmente entrenador en el Club Atlético de Madrid.",
+        "InformacionApp":"La app UnderDogToWin nace de mejorar la tecnología puesta en el fútbol. Permite descargar la tarea completa con la imagen, las explicaciones y el tiempo de realización, así como solamente la imagen, para que pueda ser utilizada en el futuro para próximas sesiones o compartirla con tus compañeros deprofesión",
+        "Mision":"Mi misión",
+        "Objetivo1":"Facilitar la realización de sesiones de entrenamiento para los amantes del fútbol",
+        "Objetivo2":"Estudiar comportamientos de los equipos rivales con la pizarra",
+        "Objetivo3":"Análisis de ABP",
+        "InformacionMision":"Acercar una herramienta tecnológica a cuerpos técnicos y clubes de fútbol para que desprendan su talento sobre este deporte"
+    },
+    "POLITICA":{
+        "Politica":"POLÍTICA DE PRIVACIDAD"
+    },
+    "AVISOS":{
+        "Avisos":"AVISOS LEGALES"
+    },
+    "FOOTER":{
+        "Informacion":"Visita nuestras redes sociales y ponte al día de la app",
+        "Politica":"Política de privacidad",
+        "Avisos":"Avisos legales"
+    },
+    "ERROR":{
+        "Mensaje":"La página no existe o está en mantenimiento",
+        "Disculpa":"Disculpen las molestias"
+    }
+}

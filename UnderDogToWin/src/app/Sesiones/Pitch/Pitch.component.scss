@@ -1,0 +1,16 @@
+.pitch{
+    background-image: url('/assets/images/pitch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+.btn-group-vertical{
+    .btn-danger{
+        background-color: red;
+        border: 1px solid red;
+        &:hover{
+            background-color: rgba(255,0,0,0.8);
+        }
+    }
+}

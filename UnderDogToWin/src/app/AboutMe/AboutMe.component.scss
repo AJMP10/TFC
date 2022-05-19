@@ -1,0 +1,63 @@
+.container-fluid {
+    background-image: url('/assets/hooligans/hooligans_liverpool_2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .info-aboutme {
+        display: grid;
+        place-content: center;
+
+        h1 {
+            font-size: 100px;
+            padding-bottom: 70px;
+            text-align: center;
+            color: white;
+            text-shadow: 0 0 0.2em black, 0 0 0.2em #FF4C4C;
+        }
+
+        .p-info {
+            background-color: white;
+            padding: 30px;
+            border: 2px solid red;
+            border-radius: 75px;
+
+            p {
+                font-size: 15px;
+                text-align: center;
+                text-shadow: 0 0 0.2em white, 0 0 0.2em #FF4C4C;
+                margin: 0;
+                padding: 5px 0px;
+            }
+        }
+    }
+
+    .image-me-aboutme {
+        display: grid;
+        place-content: center;
+    }
+}
+
+.container {
+    max-width: 100%;
+    margin: 0;
+    padding: 100px 50px;
+
+    .row {
+        .info {
+            padding: 0px 100px;
+
+            p {
+                font-size: 20px;
+            }
+        }
+
+        .accordion-size {
+            display: grid;
+            place-content: center;
+        }
+    }
+}
+.p-accordion .p-accordion-header .p-accordion-header-link{
+    color: white !important;    
+}

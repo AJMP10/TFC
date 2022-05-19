@@ -1,0 +1,42 @@
+<!-- Encabezado -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6 info-aboutme">
+            <h1>{{'ACERCADE.QuienSoy' | translate}}</h1>
+            <!-- Información acerca de mi -->
+            <div class="p-info">
+                <p>{{'ACERCADE.InformacionPersonal' | translate}}</p>
+
+                <p>{{'ACERCADE.InformacionAcademica' | translate}}
+                </p>
+
+                <p>{{'ACERCADE.InformacionEntrenador' | translate}}</p>
+            </div>
+        </div>
+        <div class="col-md-6 image-me-aboutme">
+            <img src="/assets/images/me/yo2.png" class="image-me">
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <!-- Información de la app -->
+        <div class="col-7 info">
+            <p>{{'ACERCADE.InformacionApp' | translate}}</p>
+        </div>
+        <div class="col-5 acoordion-size">
+            <!-- Objetivos de la app -->
+            <p-accordion [multiple]="true">
+                <p-accordionTab header="{{'SESIONES.Objetivos' | translate}}" class="accordionTab">
+                    {{'ACERCADE.Objetivo1' | translate}}<br>
+                    {{'ACERCADE.Objetivo2' | translate}}<br>
+                    {{'ACERCADE.Objetivo3' | translate}}
+                </p-accordionTab>
+                <p-accordionTab header="{{'ACERCADE.Mision' | translate}}" class="accordionTab">
+                    {{'ACERCADE.InformacionMision' | translate}}
+                </p-accordionTab>
+            </p-accordion>
+        </div>
+    </div>
+</div>
+<app-Footer></app-Footer>

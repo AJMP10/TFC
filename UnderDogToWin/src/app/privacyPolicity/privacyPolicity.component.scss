@@ -1,0 +1,18 @@
+.container-fluid{
+    .image-privacy{
+        width: 100%;
+        background-image: url('/assets/hooligans/hooligans_benfica.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.6;
+        .title-privacy{
+            color: white;
+            text-align: center;
+            font-size: 60px;
+            text-shadow: 0 0 0.2em black, 0 0 0.2em #FF4C4C;
+        }
+    }
+    .row{
+        padding: 70px 0px;
+    }
+}

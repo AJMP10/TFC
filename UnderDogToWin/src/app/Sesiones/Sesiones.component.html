@@ -1,0 +1,54 @@
+<div class="container-fluid">
+  <div class="row image-sessions">
+    <app-Pitch class="dragdrop"></app-Pitch>
+  </div>
+  <div class="row">
+    <div class="col-sm-12 form-session">
+        <div class="row form-group">
+          <div class="col-2"></div>
+          <div class="col-5">
+            <label for="name">{{'SESIONES.Nombre' | translate}}</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="{{'SESIONES.Nombre' | translate}}" [(ngModel)]="name">
+          </div>
+          <div class="col-2">
+            <label for="duration">{{'SESIONES.Duracion' | translate}}</label>
+            <input type="text" class="form-control" id="duration" name="duration" placeholder="{{'SESIONES.Duracion' | translate}}" [(ngModel)]="duration">
+          </div>
+        </div>
+        <div class="row form-group">
+          <div class="col-2"></div>
+          <div class="col-3">
+            <label for="objectives">{{'SESIONES.Objetivos' | translate}}</label>
+            <textarea class="form-control" id="objectives" name="objectives" rows="3" [(ngModel)]="objectives"></textarea>
+          </div>
+          <div class="col-2">
+            <label for="dimensions">{{'SESIONES.Dimensiones' | translate}}</label>
+            <input type="text" class="form-control" id="dimensions" name="dimensions" placeholder="{{'SESIONES.Dimensiones' | translate}}" [(ngModel)]="dimensions">
+          </div>
+          <div class="col-2">
+            <label for="picture">{{'SESIONES.LabelImagen' | translate}}</label>
+            <button class="btn btn-danger" (click)="createPicture()">{{'SESIONES.Imagen' | translate}}</button>
+          </div>
+        </div>
+        <div class="row form-group">
+          <div class="col-2"></div>
+          <div class="col-6">
+            <label for="description">{{'SESIONES.Descripcion' | translate}}</label>
+            <textarea class="form-control" id="description" name="description" rows="3" [(ngModel)]="description"></textarea>
+          </div>
+          </div>
+        <div class="button-form">
+          <button class="btn btn-danger" (click)="createPDF()">{{'SESIONES.GenerarPDF' | translate}}</button>
+        </div>
+    </div>
+  </div>
+  <ng-container *ngIf="create === true;">
+    <div align="center">
+       <!-- Imagen Creada -->
+       <img class="create-image" src={{createImage}}>
+    </div>
+    <a type="button" class="btn btn-success mt-3 button-download" href="{{createImage}}" download>	
+      {{'SESIONES.Descargar' | translate}}
+      </a>
+ </ng-container>
+  <app-Footer></app-Footer>

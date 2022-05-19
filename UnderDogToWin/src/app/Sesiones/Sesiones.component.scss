@@ -1,0 +1,42 @@
+.container-fluid {
+
+  .image-sessions {
+    background-image: url('/assets/hooligans/hooligans_liverpool_2.jpg');
+
+    .navbar-icons {
+      display: flex;
+      place-content: center;
+    }
+  }
+
+  .form-session {
+    padding: 50px 0px;
+
+    .form-group {
+      padding: 15px 0px;
+
+      label {
+        padding-bottom: 10px;
+      }
+
+      .form-control {
+        border-radius: 2rem;
+
+        &:focus {
+          border-color: #FF8080;
+          box-shadow: 0 0 0 0.25rem rgb(255 76 76 / 25%);
+        }
+      }
+    }
+    .button-form{
+      display: grid;
+      place-content: center;
+      padding: 40px 0px;
+    }
+  }
+  ng-container{
+    .button-download{
+      text-align: center;
+    }
+  }
+}

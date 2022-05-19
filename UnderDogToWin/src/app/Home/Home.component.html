@@ -1,0 +1,56 @@
+<div class="container-fluid">
+  <div class="row" style="height: 50px;"></div>
+  <div class="row">
+    <div class="col-3 column-image-center">
+      <img src="../assets/images/logo/UtW.png" class="logo-Underdog">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-6 column-image-center">
+      <img src="../assets/images/logo/Underdogtowin.png" class="title-Underdog">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-6 column-image-center">
+      <p class="info-text">{{ 'HOME.Informacion' | translate}}</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col button-menu">
+      <a class="btn btn-danger" data-bs-toggle="offcanvas" href="#offcanvas-home" role="button"
+        aria-controls="offcanvas-home">
+        {{  'HOME.SaberMas' | translate}}
+      </a>
+    </div>
+  </div>
+</div>
+<!-- Off Canvas for introducing the menu of the app -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas-home" aria-labelledby="offcanvas-home-Label">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel"><a href="" class="offcanvas-link-home">UnderDogToWin</a></h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div class="row">
+      <div class="col image-offcanvas">
+        <img src="../assets/images/logo/UtW.png" class="logo-offcanvas-Underdog">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="offcanvas-item">
+          <a class="button-home" href="/sessions">{{'NAVBAR.Sesiones' | translate}}</a>
+        </div>
+        <div class="offcanvas-item">
+          <a class="button-home" href="/tutorials">{{'NAVBAR.Tutoriales' | translate}}</a>
+        </div>
+        <div class="offcanvas-item">
+          <a class="button-home" href="/contact">{{'NAVBAR.Contacto' | translate}}</a>
+        </div>
+        <div class="offcanvas-item">
+          <a class="button-home" href="/aboutMe">{{'NAVBAR.AcercaDe' | translate}}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

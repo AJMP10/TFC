@@ -1,0 +1,78 @@
+<div class="container-fluid">
+  <!-- Encabezado de Contacto -->
+  <div class="back-image">
+    <h1 class="contact-title">{{'CONTACTO.Contacto' | translate}}</h1>
+    <p class="text-contact">{{'CONTACTO.LabelContacto' | translate}}</p>
+    <!-- Enlace a Redes Sociales -->
+    <div class="row">
+      <div class="col-2"></div>
+      <div class="col-2">
+        <a href="https://twitter.com/UnderdogToWin"><img class="icon-contact" src="assets/icons/twitter.png"
+            alt="twitter" loading="lazy" /></a>
+      </div>
+      <div class="col-1"></div>
+      <div class="col-2">
+        <a href="https://www.youtube.com/channel/UC5LDs6oWLs2zZJAtEfRejAA"><img class="icon-contact"
+            src="assets/icons/youtube.png" alt="youtube"></a>
+      </div>
+      <div class="col-1"></div>
+      <div class="col-2">
+        <img class="icon-contact" src="assets/icons/correo-electronico.png" alt="email">
+      </div>
+      <div class="col-2"></div>
+    </div>
+    <!-- Redes Sociales y correo electrónico -->
+    <div class="row">
+      <div class="col-2"></div>
+      <div class="col-2">
+        <p class="icon-title">{{'CONTACTO.Twitter' | translate}}</p>
+      </div>
+      <div class="col-1"></div>
+      <div class="col-2">
+        <p class="icon-title">{{'CONTACTO.Youtube' | translate}}</p>
+      </div>
+      <div class="col-1"></div>
+      <div class="col-2">
+        <p class="icon-title">{{'CONTACTO.DireccionEmail' | translate}}</p>
+      </div>
+      <div class="col-2"></div>
+    </div>
+  </div>
+  <!-- Formulario de Contacto -->
+  <div class="row">
+    <div class="col-3"></div>
+    <div class="col-6">
+      <div class="form-contact">
+        <h1 class="title-form">{{'CONTACTO.ConsultaRapida' | translate}}</h1>
+        <!-- Formulario con FormGroup para recoger los campos con formControlName -->
+        <form [formGroup]="data">
+          <div class="form-group">
+            <label for="name">{{'CONTACTO.Nombre' | translate}}</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="{{'CONTACTO.Nombre' | translate}}" formControlName="name">
+          </div>
+          <div class="form-group">
+            <label for="lastName">{{'CONTACTO.SegundoNombre' | translate}}</label>
+            <input type="text" class="form-control" id="lastName" name="lastName" placeholder="{{'CONTACTO.SegundoNombre' | translate}}" formControlName="lastName">
+          </div>
+          <div class="form-group">
+            <label for="surName">{{'CONTACTO.Apellidos' | translate}}</label>
+            <input type="text" class="form-control" id="surName" name="surName" placeholder="{{'CONTACTO.Apellidos' | translate}}" formControlName="surName">
+          </div>
+          <div class="form-group">
+            <label for="emailAddress">{{'CONTACTO.Email' | translate}}</label>
+            <input type="email" class="form-control" id="emailAddress" name="emailAddress" placeholder="{{'CONTACTO.Email' | translate}}" formControlName="email">
+          </div>
+          <div class="form-group">
+            <label for="consult">{{'CONTACTO.Consulta' | translate}}</label>
+            <textarea class="form-control" id="consult" name="consult" rows="3" formControlName="consult"></textarea>
+          </div>
+          <div class="button-form">
+            <!-- Botón de enviar email de consulta-->
+            <input type="submit" value="{{'CONTACTO.Enviar' | translate}}" class="btn btn-danger" (click)="sendEmail()">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<app-Footer></app-Footer>

@@ -1,0 +1,93 @@
+$home-red: #FF4C4C;
+
+//  BODY
+.container-fluid {
+    background-image: url('/assets/images/stadiums/anfield3.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: fixed;
+    height: 100%;
+    justify-content: center;
+
+    .column-image-center {
+        display: block;
+        margin: auto;
+
+        .logo-Underdog,
+        .title-Underdog {
+            max-width: 100%;
+        }
+
+        .info-text {
+            font-size: 1.5rem;
+            color: white;
+            text-align: center;
+            text-shadow: 0 0 0.2em black, 0 0 0.2em #FF4C4C;
+        }
+    }
+
+    .button-menu {
+        display: grid;
+        place-content: center;
+    }
+
+}
+
+//  OFF-CANVAS
+.offcanvas-start {
+    background-color: black;
+    color: white;
+    width: 330px;
+
+    .offcanvas-header {
+        .offcanvas-title {
+            .offcanvas-link-home {
+                text-decoration: none;
+                font-size: 25px;
+                color: white;
+            }
+        }
+    }
+
+    .offcanvas-body {
+        .col {
+            padding: 0;
+
+            .offcanvas-item {
+                padding: 15px;
+                text-align: center;
+
+                .button-home {
+                    text-decoration: none;
+                    color: white;
+                    font-size: 20px;
+
+                    &:hover {
+                        color: $home-red;
+                    }
+                }
+            }
+        }
+
+        .image-offcanvas {
+            display: block;
+            margin: auto;
+
+            .logo-offcanvas-Underdog {
+                max-width: 100%;
+            }
+        }
+    }
+
+    .btn-close {
+        margin: 0;
+        background-color: white;
+        border-radius: 20px;
+    }
+
+    .btn-group-vertical {
+        width: 100%;
+    }
+}

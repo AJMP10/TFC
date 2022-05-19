@@ -1,0 +1,83 @@
+.container-fluid {
+    padding: 0;
+
+    .back-image {
+        background-image: url('/assets/images/stadiums/san-mames2.jpg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        justify-content: center;
+
+        .contact-title {
+            text-align: center;
+            color: white;
+            font-size: 100px;
+            padding-top: 120px;
+            text-shadow: 0 0 0.2em black, 0 0 0.2em #FF4C4C;
+        }
+
+        .text-contact {
+            text-align: center;
+            color: white;
+            font-size: 40px;
+            padding: 20px 0px;
+            text-shadow: 0 0 0.2em black, 0 0 0.2em #FF4C4C;
+        }
+
+        .row {
+            .col-2 {
+                padding-top: 20px;
+
+                .icon-contact {
+                    width: 100px;
+                    height: 100px;
+                    display: block;
+                    margin: 0px auto;
+                }
+
+                .icon-title {
+                    font-size: 30px;
+                    color: white;
+                    text-align: center;
+                    padding: 30px 0px;
+                    text-shadow: 0 0 0.2em black, 0 0 0.2em #FF4C4C;
+                }
+            }
+        }
+    }
+
+    .form-contact {
+        .title-form {
+            text-align: center;
+            font-size: 40px;
+            padding: 50px 0px;
+        }
+
+        .form-group {
+            padding: 15px 0px;
+
+            label {
+                padding-bottom: 10px;
+            }
+
+            .form-control {
+                border-radius: 2rem;
+
+                &:focus {
+                    border-color: #FF8080;
+                    box-shadow: 0 0 0 0.25rem rgb(255 76 76 / 25%);
+                }
+            }
+        }
+        .button-form{
+            padding: 20px 0px;
+            text-align: center;
+            .btn-danger {
+                border-radius: 25px;
+                font-size: 25px;
+                padding: 0px 15px;
+            }
+        }
+    }
+}
