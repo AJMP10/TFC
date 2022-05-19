@@ -3,29 +3,30 @@
     <div class="btn-group-vertical">
       <button type="button" class="btn btn-danger" (click)="addMaterial('balon')"><img
           src="/assets/materials/balon.png"></button>
-      <button type="button" class="btn btn-danger" (click)="addMaterial('balon')"><img
+      <button type="button" class="btn btn-danger" (click)="addMaterial('circulo')"><img
           src="/assets/materials/circulo.png"></button>
-      <button type="button" class="btn btn-danger" (click)="addMaterial('balon')"><img
+      <button type="button" class="btn btn-danger" (click)="addMaterial('chino2')"><img
           src="/assets/materials/chino2.png"></button>
-      <button type="button" class="btn btn-danger" (click)="addMaterial('balon')"><img
+      <button type="button" class="btn btn-danger" (click)="addMaterial('cono')"><img
           src="/assets/materials/cono.png"></button>
-      <button type="button" class="btn btn-danger" (click)="addMaterial('balon')"><img
+      <button type="button" class="btn btn-danger" (click)="addMaterial('pica')"><img
           src="/assets/materials/pica.png"></button>
-      <button type="button" class="btn btn-danger" (click)="addMaterial('balon')"><img
+      <button type="button" class="btn btn-danger" (click)="addMaterial('aros')"><img
           src="/assets/materials/aros.png"></button>
-      <button type="button" class="btn btn-danger" (click)="addMaterial('balon')"><img
+      <button type="button" class="btn btn-danger" (click)="addMaterial('escalera')"><img
           src="/assets/materials/escalera.png"></button>
-      <button type="button" class="btn btn-danger" (click)="addMaterial('balon')"><img
+      <button type="button" class="btn btn-danger" (click)="addMaterial('vallas')"><img
           src="/assets/materials/vallas.png"></button>
-      <button type="button" class="btn btn-danger" (click)="addMaterial('balon')"><img
+      <button type="button" class="btn btn-danger" (click)="addMaterial('porteria')"><img
           src="/assets/materials/porteria.png"></button>
-      <button type="button" class="btn btn-danger" (click)="addMaterial('balon')"><img
+      <button type="button" class="btn btn-danger" (click)="addMaterial('gol')"><img
           src="/assets/materials/gol.png"></button>
       <div #ball></div>
     </div>
   </div>
   <div class="col-sm-11">
     <img *ngFor="let i of materials" src="/assets/materials/{{i}}.png" cdkDragBoundary=".pitch" cdkDrag>
+    
     <canvas id="canvasId" #canvasRef class="pitch"></canvas>
     <div class="row">
       <div class="col-3">

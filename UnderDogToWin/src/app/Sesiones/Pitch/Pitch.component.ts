@@ -126,7 +126,17 @@ export class PitchComponent implements OnInit, AfterViewInit {
   }
 
   addMaterial(material:string){
-    this.print=material;
+    this.materials.push(material);
+  }
+
+  addMaterialInCanvas(material:string){
+    /* Ver como conseguir mover el objeto */
+    let imageObj = new Image();
+    imageObj.src = "/assets/materials/"+material+".png";
+    imageObj.setAttribute("cdkDragBoundary",".pitch"); 
+    imageObj.setAttribute("cdkDrag","");
+    this.cx.drawImage(imageObj, 0, 0, 20, 20);
+    
   }
 
 }
