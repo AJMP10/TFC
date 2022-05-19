@@ -1,71 +1,75 @@
 {
     "NAVBAR":{
-        "Sesiones": "Sesiones",
-        "Tutoriales": "Tutoriales",
-        "Contacto": "Contacto",
-        "AcercaDe": "Acerca de",
-        "Español": "Español",
-        "Ingles": "Inglés",
-        "Japones": "Japonés",
+        "Sesiones": "Sessioni",
+        "Tutoriales": "Tutoriali",
+        "Contacto": "Contatto",
+        "AcercaDe": "Informazioni",
+        "Español": "Spagnolo",
+        "Ingles": "Inglese",
+        "Japones": "Giapponese",
         "Italiano": "Italiano"
     },
     "HOME":{
-        "Informacion": "Diseña tus tareas y sesiones de entrenamiento con nosotros",
-        "SaberMas":"Saber más"
+        "Informacion": "Progetta le tue attività e sessioni di formazione con noi",
+        "SaberMas":"Saperne di più"
     },
     "SESIONES":{
-        "Nombre":"Nombre",
-        "Duracion":"Duración",
-        "Objetivos":"Objetivos",
-        "Dimensiones":"Dimensiones",
-        "LabelImagen":"Si lo quieres con imagen pulse aquí",
-        "Imagen":"Imagen",
-        "Descripcion":"Descripción",
-        "GenerarPDF":"Generar PDF",
-        "Descargar":"Descargar",
-        "BorrarTrazos":"Borrar trazos"
+        "Nombre":"Nome",
+        "Duracion":"Durata",
+        "Objetivos":"Obiettivi",
+        "Dimensiones":"Dimensioni",
+        "LabelImagen":"Se lo vuoi con un'immagine clicca qui",
+        "Imagen":"Immagine",
+        "Descripcion":"Descrizione",
+        "GenerarPDF":"Generare PDF",
+        "Descargar":"Scaricare",
+        "BorrarTrazos":"Cancellare i tratti",
+        "DescargarImagen":"Scaricare l'immagine",
+        "VistaPrevia":"ANTEPRIMA DELL'IMMAGINE",
+        "ColorTrazo":"COLORE DEL TRATTO: "
     },
     "TUTORIALES":{
 
     },
     "CONTACTO":{
-        "Contacto":"CONTACTO",
-        "LabelContacto":"Suígenos en redes sociales y escríbenos para cualquier consulta y sugerencia",
+        "Contacto":"CONTATTO",
+        "LabelContacto":"Seguici sui social network e scrivici per qualsiasi domanda e suggerimento",
         "Twitter":"Twitter",
         "Youtube":"YouTube",
         "DireccionEmail":"underdogtowin@gmail.com",
-        "ConsultaRapida":"Consulta rápida",
-        "Nombre":"Nombre",
-        "Apellidos":"Apellidos",
+        "ConsultaRapida":"Riferimento rapido",
+        "Nombre":"Nome",
+        "SegundoNombre":"Secondo nome",
+        "Apellidos":"Cognome",
         "Email":"Email",
-        "Consulta":"Consulta",
-        "Enviar":"Enviar"
+        "Consulta":"Inchiesta",
+        "Enviar":"Spedire"
     },
     "ACERCADE":{
-        "QuienSoy":"¿Quién soy?",
-        "InformacionPersonal":"Antonio José Mata Periáñez, nacido el 11 de Agosto de 1995 y desarrollador de UnderdogToWin.",
-        "InformacionAcademica":"Técnico Superior en Desarrollo de Aplicaciones Web, Entrenador de Fútbol (UEFA A) y jugador de hobbie",
-        "InformacionEntrenador":"Actualmente entrenador en el Club Atlético de Madrid.",
-        "InformacionApp":"La app UnderDogToWin nace de mejorar la tecnología puesta en el fútbol. Permite descargar la tarea completa con la imagen, las explicaciones y el tiempo de realización, así como solamente la imagen, para que pueda ser utilizada en el futuro para próximas sesiones o compartirla con tus compañeros deprofesión",
-        "Mision":"Mi misión",
-        "Objetivo1":"Facilitar la realización de sesiones de entrenamiento para los amantes del fútbol",
-        "Objetivo2":"Estudiar comportamientos de los equipos rivales con la pizarra",
-        "Objetivo3":"Análisis de ABP",
-        "InformacionMision":"Acercar una herramienta tecnológica a cuerpos técnicos y clubes de fútbol para que desprendan su talento sobre este deporte"
+        "QuienSoy":"Chi sono io?",
+        "InformacionPersonal":"Antonio José Mata Periáñez, nato l'11 agosto 1995 e sviluppatore di UnderdogToWin.",
+        "InformacionAcademica":"Tecnico junior nello sviluppo di applicazioni Web, allenatore di calcio (UEFA A) e giocatore per hobby",
+        "InformacionEntrenador":"Attualmente allenatore del Club Atlético de Madrid.",
+        "InformacionApp":"L'app UnderDogToWin è nata dal miglioramento della tecnologia messa nel calcio. Ti consente di scaricare l'attività completa con l'immagine, le spiegazioni e il tempo di completamento, oltre alla sola immagine, in modo che possa essere utilizzata in futuro per sessioni future o condivisa con i tuoi colleghi.",
+        "Mision":"La mia missione",
+        "Objetivo1":"Facilita sessioni di allenamento per gli amanti del calcio",
+        "Objetivo2":"Studia il comportamento delle squadre rivali con la lavagna",
+        "Objetivo3":"Analisi d'angolo",
+        "InformacionMision":"Portare uno strumento tecnologico agli enti tecnici e alle società calcistiche affinché possano sfoggiare il proprio talento in questo sport"
     },
     "POLITICA":{
-        "Politica":"POLÍTICA DE PRIVACIDAD"
+        "Politica":"POLITICA SULLA RISERVATEZZA"
     },
     "AVISOS":{
-        "Avisos":"AVISOS LEGALES"
+        "Avisos":"NOTE LEGALI"
     },
     "FOOTER":{
-        "Informacion":"Visita nuestras redes sociales y ponte al día de la app",
-        "Politica":"Política de privacidad",
-        "Avisos":"Avisos legales"
+        "Informacion":"Visita i nostri social network e tieniti aggiornato con l'app",
+        "Politica":"Politica sulla riservatezza",
+        "Avisos":"Note legali"
     },
     "ERROR":{
-        "Mensaje":"La página no existe o está en mantenimiento",
-        "Disculpa":"Disculpen las molestias"
+        "Mensaje":"La pagina non esiste o è in manutenzione",
+        "Disculpa":"Ci dispiace per l'inconvenienza"
     }
 }

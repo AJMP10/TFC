@@ -23,7 +23,10 @@
         "Descripcion":"Description",
         "GenerarPDF":"Generate PDF",
         "Descargar":"Download",
-        "BorrarTrazos":"Erase scribbles"
+        "BorrarTrazos":"Erase scribbles",
+        "DescargarImagen":"Download image",
+        "VistaPrevia":"IMAGE PREVIEW",
+        "ColorTrazo":"COLOR SCRIBBLE: "
     },
     "TUTORIALES":{
 

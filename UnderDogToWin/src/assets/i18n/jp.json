@@ -1,71 +1,75 @@
 {
     "NAVBAR":{
-        "Sesiones": "Sesiones",
-        "Tutoriales": "Tutoriales",
-        "Contacto": "Contacto",
-        "AcercaDe": "Acerca de",
-        "Español": "Español",
-        "Ingles": "Inglés",
-        "Japones": "Japonés",
-        "Italiano": "Italiano"
+        "Sesiones": "セッション",
+        "Tutoriales": "チュートリアル",
+        "Contacto": "コンタクト",
+        "AcercaDe": "私について",
+        "Español": "スペイン語",
+        "Ingles": "英語",
+        "Japones": "日本",
+        "Italiano": "イタリア語"
     },
     "HOME":{
-        "Informacion": "Diseña tus tareas y sesiones de entrenamiento con nosotros",
-        "SaberMas":"Saber más"
+        "Informacion": "私たちと一緒にあなたのタスクとトレーニングセッションを設計する",
+        "SaberMas":"もっと知る"
     },
     "SESIONES":{
-        "Nombre":"Nombre",
-        "Duracion":"Duración",
-        "Objetivos":"Objetivos",
-        "Dimensiones":"Dimensiones",
-        "LabelImagen":"Si lo quieres con imagen pulse aquí",
-        "Imagen":"Imagen",
-        "Descripcion":"Descripción",
-        "GenerarPDF":"Generar PDF",
-        "Descargar":"Descargar",
-        "BorrarTrazos":"Borrar trazos"
+        "Nombre":"名前",
+        "Duracion":"間隔",
+        "Objetivos":"目標",
+        "Dimensiones":"寸法",
+        "LabelImagen":"画像付きでご希望の場合はこちら",
+        "Imagen":"画像",
+        "Descripcion":"説明",
+        "GenerarPDF":"PDFを生成する",
+        "Descargar":"ダウンロード",
+        "BorrarTrazos":"ストロークを消去",
+        "DescargarImagen":"画像をダウンロード",
+        "VistaPrevia":"画像プレビュー",
+        "ColorTrazo":"ストロークカラー: "
     },
     "TUTORIALES":{
 
     },
     "CONTACTO":{
-        "Contacto":"CONTACTO",
-        "LabelContacto":"Suígenos en redes sociales y escríbenos para cualquier consulta y sugerencia",
-        "Twitter":"Twitter",
+        "Contacto":"コンタクト",
+        "LabelContacto":"ソーシャルネットワークでフォローし、質問や提案があれば私たちに書いてください",
+        "Twitter":"ツイッター",
         "Youtube":"YouTube",
         "DireccionEmail":"underdogtowin@gmail.com",
-        "ConsultaRapida":"Consulta rápida",
-        "Nombre":"Nombre",
-        "Apellidos":"Apellidos",
-        "Email":"Email",
-        "Consulta":"Consulta",
-        "Enviar":"Enviar"
+        "ConsultaRapida":"クイックリファレンス",
+        "Nombre":"名前",
+        "SegundoNombre":"姓",
+        "Apellidos":"家系の名前",
+        "Email":"Eメール",
+        "Consulta":"問い合わせ",
+        "Enviar":"送信"
     },
     "ACERCADE":{
-        "QuienSoy":"¿Quién soy?",
-        "InformacionPersonal":"Antonio José Mata Periáñez, nacido el 11 de Agosto de 1995 y desarrollador de UnderdogToWin.",
-        "InformacionAcademica":"Técnico Superior en Desarrollo de Aplicaciones Web, Entrenador de Fútbol (UEFA A) y jugador de hobbie",
-        "InformacionEntrenador":"Actualmente entrenador en el Club Atlético de Madrid.",
-        "InformacionApp":"La app UnderDogToWin nace de mejorar la tecnología puesta en el fútbol. Permite descargar la tarea completa con la imagen, las explicaciones y el tiempo de realización, así como solamente la imagen, para que pueda ser utilizada en el futuro para próximas sesiones o compartirla con tus compañeros deprofesión",
-        "Mision":"Mi misión",
-        "Objetivo1":"Facilitar la realización de sesiones de entrenamiento para los amantes del fútbol",
-        "Objetivo2":"Estudiar comportamientos de los equipos rivales con la pizarra",
-        "Objetivo3":"Análisis de ABP",
-        "InformacionMision":"Acercar una herramienta tecnológica a cuerpos técnicos y clubes de fútbol para que desprendan su talento sobre este deporte"
+        "QuienSoy":"私という人間？",
+        "InformacionPersonal":"1995年8月11日に生まれ、UnderdogToWinの開発者であるAntonioJoséMataPeriáñez。",
+        "InformacionAcademica":"Webアプリケーション開発の上級技術者、フットボールコーチ（UEFA A）およびホビープレーヤー",
+        "InformacionEntrenador":"現在、ClubAtléticodeMadridのコーチ。",
+        "InformacionApp":"UnderDogToWinアプリは、サッカーに取り入れられたテクノロジーを改善することから生まれました。 これにより、画像、説明、完了時間、および画像だけでタスク全体をダウンロードできるため、将来のセッションで使用したり、同僚と共有したりできます。",
+        "Mision":"私の使命",
+        "Objetivo1":"サッカー愛好家のためのトレーニングセッションを促進する",
+        "Objetivo2":"黒板でライバルチームの行動を研究する",
+        "Objetivo3":"コーナー分析",
+        "InformacionMision":"技術団体やサッカークラブに技術ツールを持ち込んで、このスポーツで才能を発揮できるようにします"
     },
     "POLITICA":{
-        "Politica":"POLÍTICA DE PRIVACIDAD"
+        "Politica":"プライバシーポリシー"
     },
     "AVISOS":{
-        "Avisos":"AVISOS LEGALES"
+        "Avisos":"法的通知"
     },
     "FOOTER":{
-        "Informacion":"Visita nuestras redes sociales y ponte al día de la app",
-        "Politica":"Política de privacidad",
-        "Avisos":"Avisos legales"
+        "Informacion":"私たちのソーシャルネットワークにアクセスして、アプリの最新情報を入手してください",
+        "Politica":"プライバシーポリシー",
+        "Avisos":"法的通知"
     },
     "ERROR":{
-        "Mensaje":"La página no existe o está en mantenimiento",
-        "Disculpa":"Disculpen las molestias"
+        "Mensaje":"ページが存在しないか、メンテナンス中です",
+        "Disculpa":"ご不便おかけしてすみません"
     }
 }

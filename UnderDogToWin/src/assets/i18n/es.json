@@ -23,7 +23,10 @@
         "Descripcion":"Descripción",
         "GenerarPDF":"Generar PDF",
         "Descargar":"Descargar",
-        "BorrarTrazos":"Borrar trazos"
+        "BorrarTrazos":"Borrar trazos",
+        "DescargarImagen":"Descargar imagen",
+        "VistaPrevia":"VISTA PREVIA IMAGEN",
+        "ColorTrazo":"COLOR TRAZO: "
     },
     "TUTORIALES":{
 

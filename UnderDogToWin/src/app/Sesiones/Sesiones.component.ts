@@ -20,19 +20,24 @@ export class SesionesComponent implements OnInit {
   objectives:string;
   duration:string;
 
+  isEnable:boolean = true;
+
   constructor() { }
 
   ngOnInit() {
   }
 
   createPicture() {
+    if(this.isEnable===true){
     html2canvas(document.querySelector("#canvasId")).then(canvas => {
  
       this.createImage = canvas.toDataURL();  
  
     });
     this.create = true;
+    this.isEnable = false;
     return this.createImage;
+  }
   }
 
   createPDF(){

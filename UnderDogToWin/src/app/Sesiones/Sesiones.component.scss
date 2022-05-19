@@ -1,7 +1,7 @@
 .container-fluid {
 
   .image-sessions {
-    background-image: url('/assets/hooligans/hooligans_liverpool_2.jpg');
+    background-image: url('/assets/hooligans/hooligans_liverpool_2.png');
 
     .navbar-icons {
       display: flex;
@@ -29,14 +29,17 @@
       }
     }
     .button-form{
-      display: grid;
-      place-content: center;
-      padding: 40px 0px;
+      padding: 20px 0px;
+      .button-image-pdf{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      }
     }
   }
-  ng-container{
-    .button-download{
-      text-align: center;
-    }
+  .button-image{
+    display: grid;
+    place-content: center;
+    padding-bottom: 40px;
   }
 }
