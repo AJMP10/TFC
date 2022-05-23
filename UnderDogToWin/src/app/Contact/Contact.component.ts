@@ -19,7 +19,7 @@ export class ContactComponent implements OnInit {
     this.data = new FormGroup({
       name: new FormControl('', Validators.required),
       lastName: new FormControl('', Validators.required),
-      surName:new FormControl('', Validators.required),
+      surName: new FormControl('', Validators.required),
       email: new FormControl('', [Validators.required, Validators.email]),
       consult: new FormControl('', Validators.required)
     });
@@ -33,9 +33,9 @@ export class ContactComponent implements OnInit {
     Notiflix.Loading.init({
       svgColor: '#ff0000',
       messageColor: '#ffffff',
-      });
+    });
     Notiflix.Loading.pulse('Su petición se está procesando...')
-    let params={
+    let params = {
       name: this.data.value.name,
       lastName: this.data.value.lastName,
       surName: this.data.value.surName,
@@ -43,13 +43,15 @@ export class ContactComponent implements OnInit {
       consult: this.data.value.consult
     }
     // Petición Http al backend con el objeto de los datos del formulario
-    this.http.post('http://localhost:3000/correo', params).subscribe(resp=>{
+    this.http.post('http://localhost:3000/correo', params).subscribe(resp => {
       console.log(resp);
       Notiflix.Loading.remove();
-      Notiflix.Notify.init({
-        position: 'right-bottom',
-      });
       Notiflix.Notify.success('Su petición se ha enviado correctamente');
-    })
+    },
+      error => {
+        console.log(error);
+        Notiflix.Loading.remove();
+        Notiflix.Notify.failure('Ha ocurrido un error al enviar su petición');
+      })
   }
 }
