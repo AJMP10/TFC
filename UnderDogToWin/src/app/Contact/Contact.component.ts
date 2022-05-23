@@ -11,6 +11,7 @@ import * as Notiflix from 'notiflix';
 export class ContactComponent implements OnInit {
 
   // Objeto con los campos del formulario
+
   data: FormGroup;
 
   constructor(private http: HttpClient) {
@@ -18,6 +19,7 @@ export class ContactComponent implements OnInit {
     this.data = new FormGroup({
       name: new FormControl('', Validators.required),
       lastName: new FormControl('', Validators.required),
+      surName:new FormControl('', Validators.required),
       email: new FormControl('', [Validators.required, Validators.email]),
       consult: new FormControl('', Validators.required)
     });
@@ -36,6 +38,7 @@ export class ContactComponent implements OnInit {
     let params={
       name: this.data.value.name,
       lastName: this.data.value.lastName,
+      surName: this.data.value.surName,
       email: this.data.value.email,
       consult: this.data.value.consult
     }

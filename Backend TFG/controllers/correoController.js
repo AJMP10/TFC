@@ -6,7 +6,7 @@ const sendEmail = (req=request,resp=response) => {
     let body=req.body;
     // Plantilla para el correo
     contentHTML=`
-        <h1>${body.name} ${body.lastName}</h1>
+        <h1>${body.name} ${body.lastName} ${body.surName}</h1>
         <ul>
             <li>Email: ${body.email}</li>
         </ul>

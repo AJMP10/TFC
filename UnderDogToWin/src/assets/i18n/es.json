@@ -26,10 +26,16 @@
         "BorrarTrazos":"Borrar trazos",
         "DescargarImagen":"Descargar imagen",
         "VistaPrevia":"VISTA PREVIA IMAGEN",
-        "ColorTrazo":"COLOR TRAZO: "
+        "ColorTrazo":"COLOR TRAZO: ",
+        "ColorLocal":"Color equipo Local",
+        "ColorVisitante":"Color equipo Visitante",
+        "EquipoLocal":"LOCAL",
+        "EquipoVisitante":"VISITANTE"
     },
     "TUTORIALES":{
-
+        "Tutoriales":"TUTORIALES",
+        "InformacionTutorial":"Vídeos explicativos para aprender a iniciarse en la herramienta",
+        "VerYoutube":"Ver en Youtube"
     },
     "CONTACTO":{
         "Contacto":"CONTACTO",

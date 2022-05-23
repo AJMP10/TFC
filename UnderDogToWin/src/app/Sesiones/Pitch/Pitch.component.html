@@ -1,12 +1,18 @@
 <div class="row">
-  <div class="col-sm-1">
+  <div class="col-sm-2">
     <div class="btn-group-vertical">
       <button type="button" class="btn btn-danger" (click)="addMaterial('balon')"><img
-          src="/assets/materials/balon.png"></button>
-      <button type="button" class="btn btn-danger" (click)="addMaterial('circulo')"><img
-          src="/assets/materials/circulo.png"></button>
+          src="/assets/materials/balon64.png"></button>
+      <button type="button" class="btn btn-danger" (click)="addIconHome('fa-circle-half-stroke')"><i
+          class="fa-solid fa-circle-half-stroke player"></i><br>
+        <p class="tit-player">{{'SESIONES.EquipoLocal' | translate }}</p>
+      </button>
+      <button type="button" class="btn btn-danger" (click)="addIconAway('fa-circle-half-stroke')"><i
+          class="fa-solid fa-circle-half-stroke player"></i><br>
+        <p class="tit-player">{{'SESIONES.EquipoVisitante' | translate }}</p>
+      </button>
       <button type="button" class="btn btn-danger" (click)="addMaterial('chino2')"><img
-          src="/assets/materials/chino2.png"></button>
+          src="/assets/materials/chino264.png"></button>
       <button type="button" class="btn btn-danger" (click)="addMaterial('cono')"><img
           src="/assets/materials/cono.png"></button>
       <button type="button" class="btn btn-danger" (click)="addMaterial('pica')"><img
@@ -16,27 +22,41 @@
       <button type="button" class="btn btn-danger" (click)="addMaterial('escalera')"><img
           src="/assets/materials/escalera.png"></button>
       <button type="button" class="btn btn-danger" (click)="addMaterial('vallas')"><img
-          src="/assets/materials/vallas.png"></button>
+          src="/assets/materials/vallas64.png"></button>
       <button type="button" class="btn btn-danger" (click)="addMaterial('porteria')"><img
-          src="/assets/materials/porteria.png"></button>
+          src="/assets/materials/porteria64.png"></button>
       <button type="button" class="btn btn-danger" (click)="addMaterial('gol')"><img
           src="/assets/materials/gol.png"></button>
       <div #ball></div>
     </div>
   </div>
-  <div class="col-sm-11">
-    <img *ngFor="let i of materials" src="/assets/materials/{{i}}.png" cdkDragBoundary=".pitch" cdkDrag>
-    
-    <canvas id="canvasId" #canvasRef class="pitch"></canvas>
-    <div class="row">
-      <div class="col-3">
-        <button (click)="clearZone()" type="button" class="btn btn-danger">{{'SESIONES.BorrarTrazos' |
-          translate}}</button>
-      </div>
-      <div class="col-3">
-        <span class="tit-scribble">{{'SESIONES.ColorTrazo' | translate }}</span>
-        <p-colorPicker [(ngModel)]="color"></p-colorPicker>
-      </div>
+  <div class="col-sm-10">
+    <div class="div-pitch" id="divPDF">
+      <img *ngFor="let i of materials" src="/assets/materials/{{i}}.png" cdkDragBoundary=".div-pitch" cdkDrag>
+      <i *ngFor="let i of iconsHome" class="fa-solid {{i}} icon-pitch" cdkDrag cdkDragBoundary=".div-pitch"
+        [ngStyle]="{'color':this.colorHome}"></i>
+      <i *ngFor="let i of iconsAway" class="fa-solid {{i}} icon-pitch" cdkDrag cdkDragBoundary=".div-pitch"
+        [ngStyle]="{'color':this.colorAway}"></i>
+      <canvas id="canvasId" #canvasRef class="pitch" [width]="1350" [height]="759"></canvas>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-2"></div>
+    <div class="col-2">
+      <button (click)="clearZone()" type="button" class="btn btn-danger">{{'SESIONES.BorrarTrazos' |
+        translate}}</button>
+    </div>
+    <div class="col-2">
+      <span class="tit-scribble">{{'SESIONES.ColorTrazo' | translate }}</span>
+      <p-colorPicker [(ngModel)]="color"></p-colorPicker>
+    </div>
+    <div class="col-2">
+      <span class="tit-scribble">{{'SESIONES.ColorLocal' | translate }}</span>
+      <p-colorPicker [(ngModel)]="colorHome"></p-colorPicker>
+    </div>
+    <div class="col-2">
+      <span class="tit-scribble">{{'SESIONES.ColorVisitante' | translate }}</span>
+      <p-colorPicker [(ngModel)]="colorAway"></p-colorPicker>
     </div>
   </div>
 </div>

@@ -1,3 +1,14 @@
+.col-sm-2{
+    display: flex;
+    place-content: center;
+}
+.div-pitch{
+    width: min-content;
+    .icon-pitch{
+        font-size: 40px;
+    }
+    
+}
 .pitch{
     background-image: url('/assets/images/pitch.png');
     background-repeat: no-repeat;
@@ -6,6 +17,15 @@
     margin: 0;
 }
 .btn-group-vertical{
+    .tit-player{
+        margin: 0;
+        font-size: 12px;
+        color: black;
+    }
+    .player{
+        font-size: 48px;
+        color: black;
+    }
     .btn-danger{
         background-color: red;
         border: 1px solid red;

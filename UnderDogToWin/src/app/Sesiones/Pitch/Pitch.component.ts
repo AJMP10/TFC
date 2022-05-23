@@ -7,18 +7,19 @@ import { AfterViewInit, Component, ElementRef, HostListener, Input, OnInit, Rend
 })
 export class PitchComponent implements OnInit, AfterViewInit {
 
-  @ViewChild('ball') ball:ElementRef;
   public print:string;
 
-  @ViewChild('canvasRef', { static: false }) canvasRef: any;
+  @ViewChild('canvasRef', { static: false }) canvasRef;
   isAvailable: boolean=false;
   clicks:number=0;
-  color:string | any;
-  materials:Array<string>=["balon","vallas","gol"];
+  color="black";
+  colorHome="#FF0000";
+  colorAway="#0000FF";
+  materials:Array<string>=[];
+  iconsHome:Array<string>=[];
+  iconsAway:Array<string>=[];
 
   //  Ancho y alto del canvas
-  public width = 1700;;
-  public height = 600;
 
   private cx: CanvasRenderingContext2D | any;
 
@@ -114,29 +115,25 @@ export class PitchComponent implements OnInit, AfterViewInit {
   //  Limpiar el canvas y borrar el contenido dibujado
   public clearZone= () => {
     this.points = [];
-    this.cx.clearRect(0, 0, this.width, this.height);
-  }
-
-  newBall(){
-    const balon=this.renderer.createElement("img");
-    this.renderer.setAttribute(balon,"src","/assets/materials/balon.png");
-    this.renderer.setAttribute(balon,"cdkDrag","");
-    this.renderer.appendChild(this.ball.nativeElement,balon);
-
+    this.cx.clearRect(0, 0, 1350, 759);
   }
 
   addMaterial(material:string){
     this.materials.push(material);
   }
-
-  addMaterialInCanvas(material:string){
-    /* Ver como conseguir mover el objeto */
-    let imageObj = new Image();
-    imageObj.src = "/assets/materials/"+material+".png";
-    imageObj.setAttribute("cdkDragBoundary",".pitch"); 
-    imageObj.setAttribute("cdkDrag","");
-    this.cx.drawImage(imageObj, 0, 0, 20, 20);
-    
+  addIconHome(icon:string){
+    this.iconsHome.push(icon);
   }
+  addIconAway(icon:string){
+    this.iconsAway.push(icon);
+  }
+
+  // addMaterialInCanvas(material:string){
+  //   /* Ver como conseguir mover el objeto */
+  //   let imageObj = new Image();
+  //   imageObj.src = "/assets/materials/"+material+".png";
+  //   this.cx.drawImage(imageObj, 0, 0, 20, 20);
+    
+  // }
 
 }

@@ -29,7 +29,7 @@ export class SesionesComponent implements OnInit {
 
   createPicture() {
     if(this.isEnable===true){
-    html2canvas(document.querySelector("#canvasId")).then(canvas => {
+    html2canvas(document.querySelector("#divPDF")).then(canvas => {
  
       this.createImage = canvas.toDataURL();  
  
@@ -55,7 +55,7 @@ export class SesionesComponent implements OnInit {
           columns: [
             {
               image: this.createImage,
-              width:600,
+              width:500,
               height:300
             }
           ],
