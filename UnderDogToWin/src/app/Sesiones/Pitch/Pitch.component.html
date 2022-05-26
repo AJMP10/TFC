@@ -32,16 +32,16 @@
     <div class="div-pitch" id="divPDF">
       <div class="row materials">
         <div class="col-4">
-          <p class="title">MATERIALES</p>
+          <p class="title">{{'SESIONES.Materiales' | translate }}</p>
           <img *ngFor="let i of materials" src="/assets/materials/{{i}}.png" cdkDragBoundary=".div-pitch" cdkDrag>
         </div>
         <div class="col-4">
-          <p class="title">LOCAL</p>
+          <p class="title">{{'SESIONES.EquipoLocal' | translate }}</p>
           <i *ngFor="let i of iconsHome" class="fa-solid {{i}} icon-pitch" cdkDrag cdkDragBoundary=".div-pitch"
           [ngStyle]="{'color':this.colorHome}"></i>
         </div>
         <div class="col-4">
-          <p class="title">VISITANTE</p>
+          <p class="title">{{'SESIONES.EquipoVisitante' | translate }}</p>
           <i *ngFor="let i of iconsAway" class="fa-solid {{i}} icon-pitch" cdkDrag cdkDragBoundary=".div-pitch"
           [ngStyle]="{'color':this.colorAway}"></i>
         </div>
