@@ -15,6 +15,8 @@ export class PitchComponent implements OnInit, AfterViewInit {
   @ViewChild('material') material: ElementRef;
   isAvailable: boolean = false;
   clicks: number = 0;
+  index: number = 0;
+  pitch:string="pitch";
   color = "black";
   colorHome = "#FF0000";
   colorAway = "#0000FF";
@@ -51,7 +53,7 @@ export class PitchComponent implements OnInit, AfterViewInit {
     }
 
   }
-  constructor(private router: Router, private location: Location) { }
+  constructor(private router: Router, private location: Location, private renderer: Renderer2) { }
 
   //  Ejecuta la funcion cuando la etiqueta canvas ya existe
   ngAfterViewInit(): void {
@@ -138,6 +140,26 @@ export class PitchComponent implements OnInit, AfterViewInit {
       // Actualiza la página
       this.router.navigate([decodeURI(this.location.path())]);
     });
+  }
+
+  clearLastMaterial() {
+    // this.material.nativeElement.childNodes.forEach(node => {
+    //   console.log(node);
+    //   this.renderer.removeChild(this.material.nativeElement, node);
+    // });
+    const childElements = this.material.nativeElement.childNodes;
+    for (let child of childElements) {
+      this.renderer.removeChild(this.material.nativeElement, child);
+    }
+  }
+
+  changePitch(){
+    this.index++;
+    if(this.index%2==0){
+      document.getElementById('canvasId').style.backgroundImage = "url('/assets/images/pitch.png')";
+    }else{
+      document.getElementById('canvasId').style.backgroundImage = "url('/assets/images/stadiums/anfield.png')";
+    }
   }
 
   // addMaterialInCanvas(material:string){
