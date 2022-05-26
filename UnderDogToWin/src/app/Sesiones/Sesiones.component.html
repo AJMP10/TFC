@@ -59,10 +59,12 @@
       <img class="create-image" src={{createImage}}>
     </div>
     <div class="button-image">
+      <a type="button" class="btn btn-danger mt-3 button-download" (click)="resetImage()">
+        {{'SESIONES.ResetImagen' | translate}}
+      </a>
       <a type="button" class="btn btn-success mt-3 button-download" href="{{createImage}}" download>
         {{'SESIONES.DescargarImagen' | translate}}
       </a>
     </div>
-
   </ng-container>
   <app-Footer></app-Footer>

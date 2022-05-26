@@ -2,6 +2,7 @@
 
   .image-sessions {
     background-image: url('/assets/images/stadiums/wanda.png');
+    background-repeat: no-repeat;
 
     .navbar-icons {
       display: flex;
@@ -38,8 +39,9 @@
     }
   }
   .button-image{
-    display: grid;
+    display: flex;
     place-content: center;
+    justify-content: space-evenly;
     padding-bottom: 40px;
   }
 }

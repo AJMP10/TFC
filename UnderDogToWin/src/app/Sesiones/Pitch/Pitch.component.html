@@ -14,7 +14,7 @@
       <button type="button" class="btn btn-danger" (click)="addMaterial('chino2')"><img
           src="/assets/materials/chino264.png"></button>
       <button type="button" class="btn btn-danger" (click)="addMaterial('cono')"><img
-          src="/assets/materials/cono.png"></button>
+          src="/assets/materials/cono64.png"></button>
       <button type="button" class="btn btn-danger" (click)="addMaterial('pica')"><img
           src="/assets/materials/pica.png"></button>
       <button type="button" class="btn btn-danger" (click)="addMaterial('aros')"><img
@@ -23,8 +23,6 @@
           src="/assets/materials/escalera.png"></button>
       <button type="button" class="btn btn-danger" (click)="addMaterial('vallas')"><img
           src="/assets/materials/vallas64.png"></button>
-      <button type="button" class="btn btn-danger" (click)="addMaterial('porteria')"><img
-          src="/assets/materials/porteria64.png"></button>
       <button type="button" class="btn btn-danger" (click)="addMaterial('gol')"><img
           src="/assets/materials/gol.png"></button>
       <div #ball></div>
@@ -32,29 +30,43 @@
   </div>
   <div class="col-sm-10">
     <div class="div-pitch" id="divPDF">
-      <img *ngFor="let i of materials" src="/assets/materials/{{i}}.png" cdkDragBoundary=".div-pitch" cdkDrag>
-      <i *ngFor="let i of iconsHome" class="fa-solid {{i}} icon-pitch" cdkDrag cdkDragBoundary=".div-pitch"
-        [ngStyle]="{'color':this.colorHome}"></i>
-      <i *ngFor="let i of iconsAway" class="fa-solid {{i}} icon-pitch" cdkDrag cdkDragBoundary=".div-pitch"
-        [ngStyle]="{'color':this.colorAway}"></i>
+      <div class="row materials">
+        <div class="col-4">
+          <p class="title">MATERIALES</p>
+          <img *ngFor="let i of materials" src="/assets/materials/{{i}}.png" cdkDragBoundary=".div-pitch" cdkDrag>
+        </div>
+        <div class="col-4">
+          <p class="title">LOCAL</p>
+          <i *ngFor="let i of iconsHome" class="fa-solid {{i}} icon-pitch" cdkDrag cdkDragBoundary=".div-pitch"
+          [ngStyle]="{'color':this.colorHome}"></i>
+        </div>
+        <div class="col-4">
+          <p class="title">VISITANTE</p>
+          <i *ngFor="let i of iconsAway" class="fa-solid {{i}} icon-pitch" cdkDrag cdkDragBoundary=".div-pitch"
+          [ngStyle]="{'color':this.colorAway}"></i>
+        </div>
+      </div>
       <canvas id="canvasId" #canvasRef class="pitch" [width]="1350" [height]="759"></canvas>
     </div>
   </div>
-  <div class="row">
+  <div class="row buttons">
     <div class="col-2"></div>
-    <div class="col-2">
+    <div class="col-2 buttons-delete">
       <button (click)="clearZone()" type="button" class="btn btn-danger">{{'SESIONES.BorrarTrazos' |
         translate}}</button>
+        <a type="button" class="btn btn-danger" (click)="clearAll()">
+          {{'SESIONES.BorrarTodo' | translate}}
+        </a>
     </div>
-    <div class="col-2">
+    <div class="col-2 colors">
       <span class="tit-scribble">{{'SESIONES.ColorTrazo' | translate }}</span>
       <p-colorPicker [(ngModel)]="color"></p-colorPicker>
     </div>
-    <div class="col-2">
+    <div class="col-2 colors">
       <span class="tit-scribble">{{'SESIONES.ColorLocal' | translate }}</span>
       <p-colorPicker [(ngModel)]="colorHome"></p-colorPicker>
     </div>
-    <div class="col-2">
+    <div class="col-2 colors">
       <span class="tit-scribble">{{'SESIONES.ColorVisitante' | translate }}</span>
       <p-colorPicker [(ngModel)]="colorAway"></p-colorPicker>
     </div>

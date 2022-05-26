@@ -23,6 +23,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { DropdownModule } from 'primeng/dropdown';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
+import {PaginatorModule} from 'primeng/paginator';
 
 // Function to load the JSON files of languages
 export function HttpLoaderFactory(http: HttpClient) {
@@ -74,7 +75,8 @@ const appRoutes: Routes = [
         useFactory: HttpLoaderFactory,
         deps: [HttpClient]
       }
-    })
+    }),
+    PaginatorModule
   ],
   providers: [],
   bootstrap: [AppComponent]

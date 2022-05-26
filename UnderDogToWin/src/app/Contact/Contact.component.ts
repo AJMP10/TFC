@@ -43,11 +43,12 @@ export class ContactComponent implements OnInit {
       consult: this.data.value.consult
     }
     // Petición Http al backend con el objeto de los datos del formulario
-    this.http.post('http://localhost:3000/correo', params).subscribe(resp => {
-      console.log(resp);
-      Notiflix.Loading.remove();
-      Notiflix.Notify.success('Su petición se ha enviado correctamente');
-    },
+    this.http.post('http://localhost:3000/correo', params).subscribe(
+      resp => {
+        console.log(resp);
+        Notiflix.Loading.remove();
+        Notiflix.Notify.success('Su petición se ha enviado correctamente');
+      },
       error => {
         console.log(error);
         Notiflix.Loading.remove();

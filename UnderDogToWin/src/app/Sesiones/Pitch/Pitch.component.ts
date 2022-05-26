@@ -1,4 +1,6 @@
 import { AfterViewInit, Component, ElementRef, HostListener, Input, OnInit, Renderer2, ViewChild } from '@angular/core';
+import { Router } from '@angular/router';
+import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-Pitch',
@@ -7,17 +9,18 @@ import { AfterViewInit, Component, ElementRef, HostListener, Input, OnInit, Rend
 })
 export class PitchComponent implements OnInit, AfterViewInit {
 
-  public print:string;
+  public print: string;
 
   @ViewChild('canvasRef', { static: false }) canvasRef;
-  isAvailable: boolean=false;
-  clicks:number=0;
-  color="black";
-  colorHome="#FF0000";
-  colorAway="#0000FF";
-  materials:Array<string>=[];
-  iconsHome:Array<string>=[];
-  iconsAway:Array<string>=[];
+  @ViewChild('material') material: ElementRef;
+  isAvailable: boolean = false;
+  clicks: number = 0;
+  color = "black";
+  colorHome = "#FF0000";
+  colorAway = "#0000FF";
+  materials: Array<string> = [];
+  iconsHome: Array<string> = [];
+  iconsAway: Array<string> = [];
 
   //  Ancho y alto del canvas
 
@@ -35,20 +38,20 @@ export class PitchComponent implements OnInit, AfterViewInit {
   }
 
   @HostListener('click', ['$event'])
-  onClick=(e: any) =>{
-    if(e.target.id=='canvasId'){
-      this.isAvailable=!this.isAvailable;
+  onClick = (e: any) => {
+    if (e.target.id == 'canvasId') {
+      this.isAvailable = !this.isAvailable;
       //  Color de la linea
-      this.cx.strokeStyle=this.color;
+      this.cx.strokeStyle = this.color;
       this.clicks++;
       console.log(this.cx.strokeStyle);
-      if(this.clicks%2==0){
-        this.points=[];
+      if (this.clicks % 2 == 0) {
+        this.points = [];
       }
     }
 
   }
-  constructor(private renderer:Renderer2) { }
+  constructor(private router: Router, private location: Location) { }
 
   //  Ejecuta la funcion cuando la etiqueta canvas ya existe
   ngAfterViewInit(): void {
@@ -102,7 +105,7 @@ export class PitchComponent implements OnInit, AfterViewInit {
     }
     //  Dibujar linea
     this.cx.beginPath();
-    if(prevPos){
+    if (prevPos) {
       //  Desde estas coordenadas
       this.cx.moveTo(prevPos.x, prevPos.y);
       //  Hasta estas coordenadas
@@ -113,19 +116,28 @@ export class PitchComponent implements OnInit, AfterViewInit {
   }
 
   //  Limpiar el canvas y borrar el contenido dibujado
-  public clearZone= () => {
+  public clearZone = () => {
     this.points = [];
     this.cx.clearRect(0, 0, 1350, 759);
   }
 
-  addMaterial(material:string){
+  addMaterial(material: string) {
     this.materials.push(material);
   }
-  addIconHome(icon:string){
+  addIconHome(icon: string) {
     this.iconsHome.push(icon);
   }
-  addIconAway(icon:string){
+  addIconAway(icon: string) {
     this.iconsAway.push(icon);
+  }
+
+  clearAll() {
+    this.router.navigateByUrl("/refresh", { skipLocationChange: true }).then(() => {
+      // Me ofrece la ruta actual 
+      console.log(decodeURI(this.location.path()));
+      // Actualiza la página
+      this.router.navigate([decodeURI(this.location.path())]);
+    });
   }
 
   // addMaterialInCanvas(material:string){
@@ -133,7 +145,7 @@ export class PitchComponent implements OnInit, AfterViewInit {
   //   let imageObj = new Image();
   //   imageObj.src = "/assets/materials/"+material+".png";
   //   this.cx.drawImage(imageObj, 0, 0, 20, 20);
-    
+
   // }
 
 }

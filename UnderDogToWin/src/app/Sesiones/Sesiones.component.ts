@@ -12,15 +12,15 @@ pdfMake.vfs = pdfFonts.pdfMake.vfs;
 export class SesionesComponent implements OnInit {
 
   createImage;
-  create=false;
-  ocultar=false;
-  name:string;
-  description:string;
-  dimensions:string;
-  objectives:string;
-  duration:string;
+  create = false;
+  ocultar = false;
+  name: string;
+  description: string;
+  dimensions: string;
+  objectives: string;
+  duration: string;
 
-  isEnable:boolean = true;
+  isEnable: boolean = true;
 
   constructor() { }
 
@@ -28,19 +28,25 @@ export class SesionesComponent implements OnInit {
   }
 
   createPicture() {
-    if(this.isEnable===true){
-    html2canvas(document.querySelector("#divPDF")).then(canvas => {
- 
-      this.createImage = canvas.toDataURL();  
- 
-    });
-    this.create = true;
-    this.isEnable = false;
-    return this.createImage;
-  }
+    if (this.isEnable === true) {
+      html2canvas(document.querySelector("#divPDF")).then(canvas => {
+
+        this.createImage = canvas.toDataURL();
+
+      });
+      this.create = true;
+      this.isEnable = false;
+      return this.createImage;
+    }
   }
 
-  createPDF(){
+  resetImage(){
+    this.create=false;
+    this.isEnable=true;
+    this.createPicture();
+  }
+
+  createPDF() {
     const pdfDefinition: any = {
       content: [
         {
@@ -55,13 +61,13 @@ export class SesionesComponent implements OnInit {
           columns: [
             {
               image: this.createImage,
-              width:500,
-              height:300
+              width: 500,
+              height: 300
             }
           ],
         },
         {
-          columns:[
+          columns: [
             {
               text: 'Nombre',
               style: 'header'
@@ -73,7 +79,7 @@ export class SesionesComponent implements OnInit {
           ],
         },
         {
-          columns:[
+          columns: [
             {
               text: this.name,
               style: 'subheader'
@@ -85,7 +91,7 @@ export class SesionesComponent implements OnInit {
           ],
         },
         {
-          columns:[
+          columns: [
             {
               text: 'Objetivos',
               style: 'header'
@@ -97,7 +103,7 @@ export class SesionesComponent implements OnInit {
           ],
         },
         {
-          columns:[
+          columns: [
             {
               text: this.objectives,
               style: 'subheader'
@@ -109,7 +115,7 @@ export class SesionesComponent implements OnInit {
           ],
         },
         {
-          columns:[
+          columns: [
             {
               text: 'Desripción',
               style: 'header'
@@ -117,7 +123,7 @@ export class SesionesComponent implements OnInit {
           ],
         },
         {
-          columns:[
+          columns: [
             {
               text: this.description,
               style: 'subheader'
@@ -126,17 +132,17 @@ export class SesionesComponent implements OnInit {
         },
       ],
       styles: {
-        title:{
+        title: {
           fontSize: 20,
           bold: true,
-          color:  '#FF0000',
+          color: '#FF0000',
           alignment: 'center'
-          
+
         },
         header: {
           fontSize: 20,
           bold: true,
-          color:  '#FF0000',
+          color: '#FF0000',
           margin: [0, 40, 0, 30],
           alignment: 'center'
         },
@@ -146,10 +152,10 @@ export class SesionesComponent implements OnInit {
         }
       }
     }
- 
+
     const pdf = pdfMake.createPdf(pdfDefinition);
     pdf.open();
- 
+
   }
 
 }
