@@ -158,7 +158,7 @@ export class PitchComponent implements OnInit, AfterViewInit {
     if(this.index%2==0){
       document.getElementById('canvasId').style.backgroundImage = "url('/assets/images/pitch.png')";
     }else{
-      document.getElementById('canvasId').style.backgroundImage = "url('/assets/images/stadiums/anfield.png')";
+      document.getElementById('canvasId').style.backgroundImage = "url('/assets/images/pitch2.png')";
     }
   }
 
