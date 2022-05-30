@@ -22,10 +22,18 @@
         "BorrarTrazos":"Cancellare i tratti",
         "DescargarImagen":"Scaricare l'immagine",
         "VistaPrevia":"ANTEPRIMA DELL'IMMAGINE",
-        "ColorTrazo":"COLORE DEL TRATTO: "
+        "ColorTrazo":"COLORE DEL TRATTO: ",
+        "ColorLocal":"Colore della squadra di casa",
+        "ColorVisitante":"Colore della squadra ospite",
+        "EquipoLocal":"CASA",
+        "EquipoVisitante":"OSPITE",
+        "Materiales":"MATERIALI",
+        "BorrarTodo":"Cancellare tutto"
     },
     "TUTORIALES":{
-
+        "Tutoriales":"TUTORIALI",
+        "InformacionTutorial":"Video esplicativi per imparare come iniziare con lo strumento",
+        "VerYoutube":"Guarda su Youtube"
     },
     "CONTACTO":{
         "Contacto":"CONTATTO",

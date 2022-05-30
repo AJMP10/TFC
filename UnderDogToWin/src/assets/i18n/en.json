@@ -22,10 +22,18 @@
         "BorrarTrazos":"Erase scribbles",
         "DescargarImagen":"Download image",
         "VistaPrevia":"IMAGE PREVIEW",
-        "ColorTrazo":"COLOR SCRIBBLE: "
+        "ColorTrazo":"COLOR SCRIBBLE: ",
+        "ColorLocal":"Home color",
+        "ColorVisitante":"Away color",
+        "EquipoLocal":"HOME",
+        "EquipoVisitante":"AWAY",
+        "Materiales":"MATERIALS",
+        "BorrarTodo":"Clear All"
     },
     "TUTORIALES":{
-
+        "Tutoriales":"TUTORIALS",
+        "InformacionTutorial":"Explanatory videos to learn how to get started with the tool",
+        "VerYoutube":"View on Youtube"
     },
     "CONTACTO":{
         "Contacto":"CONTACT",

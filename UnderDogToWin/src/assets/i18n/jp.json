@@ -22,10 +22,18 @@
         "BorrarTrazos":"ストロークを消去",
         "DescargarImagen":"画像をダウンロード",
         "VistaPrevia":"画像プレビュー",
-        "ColorTrazo":"ストロークカラー: "
+        "ColorTrazo":"ストロークカラー: ",
+        "ColorLocal":"ホームチームカラー",
+        "ColorVisitante":"アウェイチームカラー",
+        "EquipoLocal":"ローカルチーム",
+        "EquipoVisitante":"訪問チーム",
+        "Materiales":"材料",
+        "BorrarTodo":"すべてを消去する"
     },
     "TUTORIALES":{
-
+        "Tutoriales":"チュートリアル",
+        "InformacionTutorial":"ツールの使用を開始する方法を学ぶための説明ビデオ",
+        "VerYoutube":"Youtubeで見る"
     },
     "CONTACTO":{
         "Contacto":"コンタクト",
