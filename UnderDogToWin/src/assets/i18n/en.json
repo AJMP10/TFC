@@ -14,8 +14,8 @@
         "Duracion":"Duration",
         "Objetivos":"Goals",
         "Dimensiones":"Area",
-        "LabelImagen":"Click here if you want an image",
-        "Imagen":"Session Image",
+        "LabelImagen":"To download or generate PDF",
+        "VistaPreviaImagen":"Preview Image",
         "Descripcion":"Description",
         "GenerarPDF":"Generate PDF",
         "Descargar":"Download",
@@ -28,7 +28,8 @@
         "EquipoLocal":"HOME",
         "EquipoVisitante":"AWAY",
         "Materiales":"MATERIALS",
-        "BorrarTodo":"Clear All"
+        "BorrarTodo":"Clear All",
+        "ResetImagen":"Reset image"
     },
     "TUTORIALES":{
         "Tutoriales":"TUTORIALS",

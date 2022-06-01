@@ -30,7 +30,7 @@ export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 }
 
-
+// Rutas relativas del Rotuing de la aplicación
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'sessions', component: SesionesComponent },
@@ -69,6 +69,7 @@ const appRoutes: Routes = [
     ReactiveFormsModule,
     HttpClientModule,
     DropdownModule,
+    // Módulo de traducción
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,

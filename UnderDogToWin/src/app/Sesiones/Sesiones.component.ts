@@ -30,13 +30,15 @@ export class SesionesComponent implements OnInit {
 
   createPicture() {
     if (this.isEnable === true) {
+      // Recogemos el contenedor que queremos convertir a imagen
       html2canvas(document.querySelector("#divPDF")).then(canvas => {
-
+        // Convertimos el canvas a imagen
         this.createImage = canvas.toDataURL();
 
       });
       this.create = true;
       this.isEnable = false;
+      // Retornamos la variable donde la hemos guardado
       return this.createImage;
     }
   }
@@ -49,6 +51,9 @@ export class SesionesComponent implements OnInit {
 
   createPDF() {
     const pdfDefinition: any = {
+      info:{
+        title: this.name,
+      },
       pageOrientation: 'landscape',
       content: [
         {

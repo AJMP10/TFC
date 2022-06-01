@@ -35,6 +35,7 @@ export class ContactComponent implements OnInit {
       messageColor: '#ffffff',
     });
     Notiflix.Loading.pulse('Su petición se está procesando...')
+    // Recogemos los valores del formulario
     let params = {
       name: this.data.value.name,
       lastName: this.data.value.lastName,
@@ -44,11 +45,13 @@ export class ContactComponent implements OnInit {
     }
     // Petición Http al backend con el objeto de los datos del formulario
     this.http.post('http://localhost:3000/correo', params).subscribe(
+      // Si la petición se realiza correctamente
       resp => {
         console.log(resp);
         Notiflix.Loading.remove();
         Notiflix.Notify.success('Su petición se ha enviado correctamente');
       },
+      // Si la petición da error o no hay conexión con el servidor del backend
       error => {
         console.log(error);
         Notiflix.Loading.remove();

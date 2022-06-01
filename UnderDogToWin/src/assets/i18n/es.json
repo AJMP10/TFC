@@ -14,8 +14,8 @@
         "Duracion":"Duración",
         "Objetivos":"Objetivos",
         "Dimensiones":"Dimensiones",
-        "LabelImagen":"Si lo quieres con imagen pulse aquí",
-        "Imagen":"Imagen",
+        "LabelImagen":"Para descargar o generar PDF",
+        "VistaPreviaImagen":"Vista previa",
         "Descripcion":"Descripción",
         "GenerarPDF":"Generar PDF",
         "Descargar":"Descargar",
@@ -28,7 +28,8 @@
         "EquipoLocal":"LOCAL",
         "EquipoVisitante":"VISITANTE",
         "Materiales":"MATERIALES",
-        "BorrarTodo":"Borrar todo"
+        "BorrarTodo":"Borrar todo",
+        "ResetImagen":"Actualizar imagen"
     },
     "TUTORIALES":{
         "Tutoriales":"TUTORIALES",

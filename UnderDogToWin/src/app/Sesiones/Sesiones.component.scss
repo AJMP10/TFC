@@ -29,19 +29,32 @@
         }
       }
     }
-    .button-form{
+
+    .button-form {
       padding: 20px 0px;
-      .button-image-pdf{
+
+      .button-image-pdf {
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: center;
+
+        .label-image {
+          margin-right: 20px;
+        }
       }
     }
   }
-  .button-image{
+
+  .button-image {
     display: flex;
     place-content: center;
     justify-content: space-evenly;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
+  }
+
+  .generate-pdf {
+    display: flex;
+    place-content: center;
+    margin-bottom: 20px;
   }
 }

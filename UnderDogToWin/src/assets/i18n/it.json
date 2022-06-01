@@ -14,8 +14,8 @@
         "Duracion":"Durata",
         "Objetivos":"Obiettivi",
         "Dimensiones":"Dimensioni",
-        "LabelImagen":"Se lo vuoi con un'immagine clicca qui",
-        "Imagen":"Immagine",
+        "LabelImagen":"Per scaricare o generare PDF",
+        "VistaPreviaImagen":"Anteprima",
         "Descripcion":"Descrizione",
         "GenerarPDF":"Generare PDF",
         "Descargar":"Scaricare",
@@ -28,7 +28,8 @@
         "EquipoLocal":"CASA",
         "EquipoVisitante":"OSPITE",
         "Materiales":"MATERIALI",
-        "BorrarTodo":"Cancellare tutto"
+        "BorrarTodo":"Cancellare tutto",
+        "ResetImagen":"Reset immagine"
     },
     "TUTORIALES":{
         "Tutoriales":"TUTORIALI",
