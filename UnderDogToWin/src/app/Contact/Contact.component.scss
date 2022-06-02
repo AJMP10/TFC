@@ -2,6 +2,7 @@
     padding: 0;
 
     .back-image {
+        // Fondo del contenedor principal
         background-image: url('/assets/images/stadiums/san-mames2.jpg');
         background-position: center center;
         background-repeat: no-repeat;
@@ -70,9 +71,11 @@
                 }
             }
         }
-        .button-form{
+
+        .button-form {
             padding: 20px 0px;
             text-align: center;
+
             .btn-danger {
                 border-radius: 25px;
                 font-size: 25px;

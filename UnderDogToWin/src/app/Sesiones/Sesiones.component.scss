@@ -1,6 +1,7 @@
 .container-fluid {
 
   .image-sessions {
+    // Fondo contenedor del campo e iconos
     background-image: url('/assets/images/stadiums/wanda.png');
     background-repeat: no-repeat;
 
@@ -23,6 +24,7 @@
       .form-control {
         border-radius: 2rem;
 
+        // Campos dentro del foco
         &:focus {
           border-color: #FF8080;
           box-shadow: 0 0 0 0.25rem rgb(255 76 76 / 25%);
@@ -48,6 +50,7 @@
   .button-image {
     display: flex;
     place-content: center;
+    // Espaciado entre elementos flexibles
     justify-content: space-evenly;
     padding-bottom: 20px;
   }

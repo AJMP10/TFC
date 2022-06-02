@@ -1,3 +1,4 @@
+<!-- Contenedor principal -->
 <div class="container-fluid">
   <div class="row" style="height: 50px;"></div>
   <div class="row">
@@ -19,14 +20,15 @@
     <div class="col button-menu">
       <a class="btn btn-danger" data-bs-toggle="offcanvas" href="#offcanvas-home" role="button"
         aria-controls="offcanvas-home">
-        {{  'HOME.SaberMas' | translate}}
+        {{ 'HOME.SaberMas' | translate}}
       </a>
     </div>
   </div>
 </div>
-<!-- Off Canvas for introducing the menu of the app -->
+<!-- Off Canvas que muestra el menú en vertical -->
 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas-home" aria-labelledby="offcanvas-home-Label">
   <div class="offcanvas-header">
+    <!-- Vuelta al Home -->
     <h5 class="offcanvas-title" id="offcanvasExampleLabel"><a href="" class="offcanvas-link-home">UnderDogToWin</a></h5>
     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
@@ -36,6 +38,7 @@
         <img src="../assets/images/logo/UtW.png" class="logo-offcanvas-Underdog">
       </div>
     </div>
+    <!-- Routing links a otras páginas -->
     <div class="row">
       <div class="col">
         <div class="offcanvas-item">

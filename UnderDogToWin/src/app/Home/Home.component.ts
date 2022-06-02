@@ -6,8 +6,6 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./Home.component.scss']
 })
 export class HomeComponent implements OnInit {
-  
-  // Variables
 
   constructor() { }
 

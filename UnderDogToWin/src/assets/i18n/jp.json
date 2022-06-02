@@ -1,40 +1,40 @@
 {
-    "NAVBAR":{
+    "NAVBAR": {
         "Sesiones": "セッション",
         "Tutoriales": "チュートリアル",
         "Contacto": "コンタクト",
         "AcercaDe": "私について"
     },
-    "HOME":{
+    "HOME": {
         "Informacion": "私たちと一緒にあなたのタスクとトレーニングセッションを設計する",
-        "SaberMas":"もっと知る"
+        "SaberMas": "もっと知る"
     },
-    "SESIONES":{
-        "Nombre":"名前",
-        "Duracion":"間隔",
-        "Objetivos":"目標",
-        "Dimensiones":"寸法",
-        "LabelImagen":"PDFをダウンロードまたは生成するには",
-        "VistaPreviaImagen":"プレビュー",
-        "Descripcion":"説明",
-        "GenerarPDF":"PDFを生成する",
-        "Descargar":"ダウンロード",
-        "BorrarTrazos":"ストロークを消去",
-        "DescargarImagen":"画像をダウンロード",
-        "VistaPrevia":"画像プレビュー",
-        "ColorTrazo":"ストロークカラー: ",
-        "ColorLocal":"ホームチームカラー",
-        "ColorVisitante":"アウェイチームカラー",
-        "EquipoLocal":"ローカルチーム",
-        "EquipoVisitante":"訪問チーム",
-        "Materiales":"材料",
-        "BorrarTodo":"すべてを消去する",
-        "ResetImagen":"画像をリセットする"
+    "SESIONES": {
+        "Nombre": "名前",
+        "Duracion": "間隔",
+        "Objetivos": "目標",
+        "Dimensiones": "寸法",
+        "LabelImagen": "PDFをダウンロードまたは生成するには",
+        "VistaPreviaImagen": "プレビュー",
+        "Descripcion": "説明",
+        "GenerarPDF": "PDFを生成する",
+        "Descargar": "ダウンロード",
+        "BorrarTrazos": "ストロークを消去",
+        "DescargarImagen": "画像をダウンロード",
+        "VistaPrevia": "画像プレビュー",
+        "ColorTrazo": "ストロークカラー: ",
+        "ColorLocal": "ホームチームカラー",
+        "ColorVisitante": "アウェイチームカラー",
+        "EquipoLocal": "ローカルチーム",
+        "EquipoVisitante": "訪問チーム",
+        "Materiales": "材料",
+        "BorrarTodo": "すべてを消去する",
+        "ResetImagen": "画像をリセットする"
     },
-    "TUTORIALES":{
-        "Tutoriales":"チュートリアル",
-        "InformacionTutorial":"ツールの使用を開始する方法を学ぶための説明ビデオ",
-        "VerYoutube":"Youtubeで見る",
+    "TUTORIALES": {
+        "Tutoriales": "チュートリアル",
+        "InformacionTutorial": "ツールの使用を開始する方法を学ぶための説明ビデオ",
+        "VerYoutube": "Youtubeで見る",
         "CrearMaterial": "材料の作成",
         "CrearMaterialDescripcion": "フィールドに配置するマテリアルをクリックすると、[マテリアル]セクションに表示され、フィールドにドラッグアンドドロップできます。",
         "CrearJugadores": "プレイヤーの作成",
@@ -48,45 +48,45 @@
         "GenerarPDF": "PDFを生成する",
         "GenerarPDFDescripcion": "画像のプレビューを開くと、フォームに入力されたデータを含む画像を生成する赤い[PDFの生成]ボタンが表示されます。"
     },
-    "CONTACTO":{
-        "Contacto":"コンタクト",
-        "LabelContacto":"ソーシャルネットワークでフォローし、質問や提案があれば私たちに書いてください",
-        "Twitter":"ツイッター",
-        "Youtube":"YouTube",
-        "DireccionEmail":"underdogtowin@gmail.com",
-        "ConsultaRapida":"クイックリファレンス",
-        "Nombre":"名前",
-        "SegundoNombre":"姓",
-        "Apellidos":"家系の名前",
-        "Email":"Eメール",
-        "Consulta":"問い合わせ",
-        "Enviar":"送信"
+    "CONTACTO": {
+        "Contacto": "コンタクト",
+        "LabelContacto": "ソーシャルネットワークでフォローし、質問や提案があれば私たちに書いてください",
+        "Twitter": "ツイッター",
+        "Youtube": "YouTube",
+        "DireccionEmail": "underdogtowin@gmail.com",
+        "ConsultaRapida": "クイックリファレンス",
+        "Nombre": "名前",
+        "SegundoNombre": "姓",
+        "Apellidos": "家系の名前",
+        "Email": "Eメール",
+        "Consulta": "問い合わせ",
+        "Enviar": "送信"
     },
-    "ACERCADE":{
-        "QuienSoy":"私という人間？",
-        "InformacionPersonal":"1995年8月11日に生まれ、UnderdogToWinの開発者であるAntonioJoséMataPeriáñez。",
-        "InformacionAcademica":"Webアプリケーション開発の上級技術者、フットボールコーチ（UEFA A）およびホビープレーヤー",
-        "InformacionEntrenador":"現在、ClubAtléticodeMadridのコーチ。",
-        "InformacionApp":"UnderDogToWinアプリは、サッカーに取り入れられたテクノロジーを改善することから生まれました。 これにより、画像、説明、完了時間、および画像だけでタスク全体をダウンロードできるため、将来のセッションで使用したり、同僚と共有したりできます。",
-        "Mision":"私の使命",
-        "Objetivo1":"サッカー愛好家のためのトレーニングセッションを促進する",
-        "Objetivo2":"黒板でライバルチームの行動を研究する",
-        "Objetivo3":"コーナー分析",
-        "InformacionMision":"技術団体やサッカークラブに技術ツールを持ち込んで、このスポーツで才能を発揮できるようにします"
+    "ACERCADE": {
+        "QuienSoy": "私という人間？",
+        "InformacionPersonal": "1995年8月11日に生まれ、UnderdogToWinの開発者であるAntonioJoséMataPeriáñez。",
+        "InformacionAcademica": "Webアプリケーション開発の上級技術者、フットボールコーチ（UEFA A）およびホビープレーヤー",
+        "InformacionEntrenador": "現在、ClubAtléticodeMadridのコーチ。",
+        "InformacionApp": "UnderDogToWinアプリは、サッカーに取り入れられたテクノロジーを改善することから生まれました。 これにより、画像、説明、完了時間、および画像だけでタスク全体をダウンロードできるため、将来のセッションで使用したり、同僚と共有したりできます。",
+        "Mision": "私の使命",
+        "Objetivo1": "サッカー愛好家のためのトレーニングセッションを促進する",
+        "Objetivo2": "黒板でライバルチームの行動を研究する",
+        "Objetivo3": "コーナー分析",
+        "InformacionMision": "技術団体やサッカークラブに技術ツールを持ち込んで、このスポーツで才能を発揮できるようにします"
     },
-    "POLITICA":{
-        "Politica":"プライバシーポリシー"
+    "POLITICA": {
+        "Politica": "プライバシーポリシー"
     },
-    "AVISOS":{
-        "Avisos":"法的通知"
+    "AVISOS": {
+        "Avisos": "法的通知"
     },
-    "FOOTER":{
-        "Informacion":"私たちのソーシャルネットワークにアクセスして、アプリの最新情報を入手してください",
-        "Politica":"プライバシーポリシー",
-        "Avisos":"法的通知"
+    "FOOTER": {
+        "Informacion": "私たちのソーシャルネットワークにアクセスして、アプリの最新情報を入手してください",
+        "Politica": "プライバシーポリシー",
+        "Avisos": "法的通知"
     },
-    "ERROR":{
-        "Mensaje":"ページが存在しないか、メンテナンス中です",
-        "Disculpa":"ご不便おかけしてすみません"
+    "ERROR": {
+        "Mensaje": "ページが存在しないか、メンテナンス中です",
+        "Disculpa": "ご不便おかけしてすみません"
     }
 }

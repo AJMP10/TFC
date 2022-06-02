@@ -1,14 +1,13 @@
 <!-- Navbar -->
 <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-    <!-- Container wrapper -->
+    <!-- Contenedor del navbar -->
     <div class="container-fluid">
-        <!-- Collapsible wrapper -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <!-- Navbar brand -->
+            <!-- Logo para volver al Home -->
             <a class="navbar-brand" href="">
                 <img src="../assets/images/logo/UtW.png" alt="UnderDogToWin" loading="lazy" />
             </a>
-            <!-- Left links -->
+            <!-- Links del routing a otras páginas -->
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
                     <a class="nav-link" href="/sessions">{{'NAVBAR.Sesiones' | translate }}</a>
@@ -23,7 +22,7 @@
                     <a class="nav-link" href="/aboutMe">{{'NAVBAR.AcercaDe' | translate }}</a>
                 </li>
             </ul>
-            <!-- Left links -->
+            <!-- Cambio de idioma -->
             <select class="language" (change)="selectLanguage($event)">
                 <option value="es">Español</option>
                 <option value="en">English</option>
@@ -33,5 +32,5 @@
         </div>
     </div>
 </nav>
-<!-- Routing of the app -->
+<!-- Routing de la aplicación -->
 <router-outlet></router-outlet>

@@ -9,29 +9,32 @@ import { Location } from '@angular/common';
 })
 export class PitchComponent implements OnInit, AfterViewInit {
 
-  public print: string;
+  // Variables
 
   @ViewChild('canvasRef', { static: false }) canvasRef;
   @ViewChild('material') material: ElementRef;
+
   isAvailable: boolean = false;
+
   clicks: number = 0;
   index: number = 0;
-  pitch:string="pitch";
+
+  pitch: string = "pitch";
+
   color = "black";
   colorHome = "#FF0000";
   colorAway = "#0000FF";
+
   materials: Array<string> = [];
   iconsHome: Array<string> = [];
   iconsAway: Array<string> = [];
-
-  //  Ancho y alto del canvas
 
   private cx: CanvasRenderingContext2D | any;
 
   //  Almacenamiento de coordenadas
   private points: Array<any> = [];
 
-  //Capturar cuando se mueva el raton
+  // Capturar cuando se mueva el raton
   @HostListener('document:mousemove', ['$event'])
   onMouseMove = (e: any) => {
     if (e.target.id == 'canvasId' && this.isAvailable) {
@@ -39,6 +42,7 @@ export class PitchComponent implements OnInit, AfterViewInit {
     }
   }
 
+  // Capturar el click del ratón
   @HostListener('click', ['$event'])
   onClick = (e: any) => {
     if (e.target.id == 'canvasId') {
@@ -53,6 +57,7 @@ export class PitchComponent implements OnInit, AfterViewInit {
     }
 
   }
+
   constructor(private router: Router, private location: Location, private renderer: Renderer2) { }
 
   //  Ejecuta la funcion cuando la etiqueta canvas ya existe
@@ -62,20 +67,19 @@ export class PitchComponent implements OnInit, AfterViewInit {
 
   ngOnInit() { }
 
+  // Método de configuración del canvas
   private render(): any {
     const canvasEl = this.canvasRef.nativeElement;
 
     //  Obtener el contexto del canvas para dibujar dentro de la etiqueta canvas
     this.cx = canvasEl.getContext('2d');
-
-
-
     //  Grosor del pincel
     this.cx.lineWidth = 3;
     //  Final de linea redondeado
     this.cx.lineCap = 'round';
   }
 
+  // Método para recoger las coordenadas del puntero
   private write(res: { clientX: number; clientY: number; }): any {
     const canvasEl = this.canvasRef.nativeElement;
 
@@ -101,6 +105,7 @@ export class PitchComponent implements OnInit, AfterViewInit {
     }
   }
 
+  //  Método para dibujar la linea
   private drawOnCanvas(prevPos: any, currentPos: any) {
     if (!this.cx) {
       return;
@@ -123,16 +128,22 @@ export class PitchComponent implements OnInit, AfterViewInit {
     this.cx.clearRect(0, 0, 1350, 759);
   }
 
+  // Método para añdir materiales al array
   addMaterial(material: string) {
     this.materials.push(material);
   }
+
+  // Método para añdir jugadores locales al array
   addIconHome(icon: string) {
     this.iconsHome.push(icon);
   }
+
+  // Método para añdir jugadores visitantes al array
   addIconAway(icon: string) {
     this.iconsAway.push(icon);
   }
 
+  // Método para borrar todo el contenido del canvas
   clearAll() {
     this.router.navigateByUrl("/refresh", { skipLocationChange: true }).then(() => {
       // Me ofrece la ruta actual 
@@ -142,22 +153,24 @@ export class PitchComponent implements OnInit, AfterViewInit {
     });
   }
 
-  clearLastMaterial() {
-    // this.material.nativeElement.childNodes.forEach(node => {
-    //   console.log(node);
-    //   this.renderer.removeChild(this.material.nativeElement, node);
-    // });
-    const childElements = this.material.nativeElement.childNodes;
-    for (let child of childElements) {
-      this.renderer.removeChild(this.material.nativeElement, child);
-    }
-  }
+  // Método para borrar el último material ingresado
+  // clearLastMaterial() {
+  //   // this.material.nativeElement.childNodes.forEach(node => {
+  //   //   console.log(node);
+  //   //   this.renderer.removeChild(this.material.nativeElement, node);
+  //   // });
+  //   const childElements = this.material.nativeElement.childNodes;
+  //   for (let child of childElements) {
+  //     this.renderer.removeChild(this.material.nativeElement, child);
+  //   }
+  // }
 
-  changePitch(){
+  // Método para cambiar el terreno de juego al pulsar sobre el botón
+  changePitch() {
     this.index++;
-    if(this.index%2==0){
+    if (this.index % 2 == 0) {
       document.getElementById('canvasId').style.backgroundImage = "url('/assets/images/pitch.png')";
-    }else{
+    } else {
       document.getElementById('canvasId').style.backgroundImage = "url('/assets/images/pitch2.png')";
     }
   }

@@ -1,17 +1,21 @@
 <div class="container-fluid">
   <div class="row image-sessions">
+    <!-- Componente del campo -->
     <app-Pitch class="dragdrop"></app-Pitch>
   </div>
   <div class="row">
     <div class="col-sm-12 form-session">
+      <!-- Campos de datos de la tarea -->
       <div class="row form-group">
         <div class="col-2"></div>
         <div class="col-5">
+          <!-- Nombre -->
           <label for="name">{{'SESIONES.Nombre' | translate}}</label>
           <input type="text" class="form-control" id="name" name="name" placeholder="{{'SESIONES.Nombre' | translate}}"
             [(ngModel)]="name">
         </div>
         <div class="col-2">
+          <!-- Duración -->
           <label for="duration">{{'SESIONES.Duracion' | translate}}</label>
           <input type="text" class="form-control" id="duration" name="duration"
             placeholder="{{'SESIONES.Duracion' | translate}}" [(ngModel)]="duration">
@@ -20,21 +24,23 @@
       <div class="row form-group">
         <div class="col-2"></div>
         <div class="col-3">
+          <!-- Objetivos -->
           <label for="objectives">{{'SESIONES.Objetivos' | translate}}</label>
           <textarea class="form-control" id="objectives" name="objectives" rows="3" [(ngModel)]="objectives"></textarea>
         </div>
         <div class="col-2">
+          <!-- Dimensiones -->
           <label for="dimensions">{{'SESIONES.Dimensiones' | translate}}</label>
           <input type="text" class="form-control" id="dimensions" name="dimensions"
             placeholder="{{'SESIONES.Dimensiones' | translate}}" [(ngModel)]="dimensions">
         </div>
         <div class="col-2">
-
         </div>
       </div>
       <div class="row form-group">
         <div class="col-2"></div>
         <div class="col-6">
+          <!-- Descripción -->
           <label for="description">{{'SESIONES.Descripcion' | translate}}</label>
           <textarea class="form-control" id="description" name="description" rows="3"
             [(ngModel)]="description"></textarea>
@@ -42,12 +48,14 @@
       </div>
       <div class="button-form">
         <div class="button-image-pdf">
+          <!-- Botón vista previa -->
           <label for="picture" class="label-image">{{'SESIONES.LabelImagen' | translate}}</label>
           <button class="btn btn-danger" (click)="createPicture()">{{'SESIONES.VistaPreviaImagen' | translate}}</button>
         </div>
       </div>
     </div>
   </div>
+  <!-- Contenedor oculto -->
   <ng-container *ngIf="create === true;">
     <div align="center">
       <h1>{{'SESIONES.VistaPrevia' | translate}}</h1>
@@ -55,15 +63,19 @@
       <img class="create-image" src={{createImage}}>
     </div>
     <div class="button-image">
+      <!-- Botón actualizar imagen -->
       <a type="button" class="btn btn-danger mt-3 button-download" (click)="resetImage()">
         {{'SESIONES.ResetImagen' | translate}}
       </a>
+      <!-- Botón descargar imagen -->
       <a type="button" class="btn btn-success mt-3 button-download" href="{{createImage}}" download>
         {{'SESIONES.DescargarImagen' | translate}}
       </a>
     </div>
     <div class="generate-pdf">
-      <button class="btn btn-danger" (click)="createPDF()" [disabled]="isEnable">{{'SESIONES.GenerarPDF' | translate}}</button>
+      <!-- Botón generar pdf -->
+      <button class="btn btn-danger" (click)="createPDF()" [disabled]="isEnable">{{'SESIONES.GenerarPDF' |
+        translate}}</button>
     </div>
   </ng-container>
   <app-Footer></app-Footer>

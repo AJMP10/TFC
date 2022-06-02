@@ -1,6 +1,6 @@
 $home-red: #FF4C4C;
 
-// Navbar styles
+// Estilos Navbar
 .bg-dark {
     padding: 0;
 
@@ -8,7 +8,7 @@ $home-red: #FF4C4C;
         .navbar-collapse {
             .navbar-brand {
 
-                // Size of the image
+                // Tamaño del logo del Home
                 img {
                     height: 60px;
                 }
@@ -29,6 +29,7 @@ $home-red: #FF4C4C;
                 }
             }
 
+            // Estilos de los idiomas
             .language {
                 display: inline-block;
                 cursor: pointer;

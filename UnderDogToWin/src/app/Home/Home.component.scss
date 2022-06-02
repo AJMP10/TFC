@@ -2,6 +2,7 @@ $home-red: #FF4C4C;
 
 //  BODY
 .container-fluid {
+    // Fondo contenedor principal
     background-image: url('/assets/images/stadiums/anfield3.jpg');
     background-position: center center;
     background-repeat: no-repeat;
@@ -44,6 +45,7 @@ $home-red: #FF4C4C;
     .offcanvas-header {
         .offcanvas-title {
             .offcanvas-link-home {
+                // Quitar estilo a los enlaces
                 text-decoration: none;
                 font-size: 25px;
                 color: white;

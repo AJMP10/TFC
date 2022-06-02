@@ -3,6 +3,7 @@
     margin: 0;
 
     .image-tutorial {
+        // Fondo del título
         margin: 0;
         width: 100%;
         background-image: url('/assets/hooligans/hooligans_benfica.jpg');
@@ -39,7 +40,7 @@
             display: grid;
             place-content: center;
 
-            .card-title{
+            .card-title {
                 margin: 0;
             }
 

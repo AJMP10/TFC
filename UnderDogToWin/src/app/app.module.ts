@@ -1,5 +1,6 @@
+//Importación de librerías
 import { NgModule } from '@angular/core';
-import { FormGroup, FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule, Routes } from '@angular/router';
 import { DragDropModule } from '@angular/cdk/drag-drop';
@@ -23,9 +24,9 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { DropdownModule } from 'primeng/dropdown';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
-import {PaginatorModule} from 'primeng/paginator';
+import { PaginatorModule } from 'primeng/paginator';
 
-// Function to load the JSON files of languages
+// Método que carga los JSON de los idiomas
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 }
@@ -43,6 +44,7 @@ const appRoutes: Routes = [
 ];
 
 @NgModule({
+  // Componentes de la aplicación
   declarations: [
     AppComponent,
     SesionesComponent,
@@ -56,11 +58,13 @@ const appRoutes: Routes = [
     ErrorComponent,
     PitchComponent
   ],
+  // Módulos de la aplicación
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     FormsModule,
+    // Módulo de arrastrar y soltar
     DragDropModule,
     RouterModule.forRoot(appRoutes),
     ScrollPanelModule,

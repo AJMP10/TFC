@@ -1,40 +1,40 @@
 {
-    "NAVBAR":{
+    "NAVBAR": {
         "Sesiones": "Sessioni",
         "Tutoriales": "Tutoriali",
         "Contacto": "Contatto",
         "AcercaDe": "Informazioni"
     },
-    "HOME":{
+    "HOME": {
         "Informacion": "Progetta le tue attività e sessioni di formazione con noi",
-        "SaberMas":"Saperne di più"
+        "SaberMas": "Saperne di più"
     },
-    "SESIONES":{
-        "Nombre":"Nome",
-        "Duracion":"Durata",
-        "Objetivos":"Obiettivi",
-        "Dimensiones":"Dimensioni",
-        "LabelImagen":"Per scaricare o generare PDF",
-        "VistaPreviaImagen":"Anteprima",
-        "Descripcion":"Descrizione",
-        "GenerarPDF":"Generare PDF",
-        "Descargar":"Scaricare",
-        "BorrarTrazos":"Cancellare i tratti",
-        "DescargarImagen":"Scaricare l'immagine",
-        "VistaPrevia":"ANTEPRIMA DELL'IMMAGINE",
-        "ColorTrazo":"COLORE DEL TRATTO: ",
-        "ColorLocal":"Colore della squadra di casa",
-        "ColorVisitante":"Colore della squadra ospite",
-        "EquipoLocal":"CASA",
-        "EquipoVisitante":"OSPITE",
-        "Materiales":"MATERIALI",
-        "BorrarTodo":"Cancellare tutto",
-        "ResetImagen":"Reset immagine"
+    "SESIONES": {
+        "Nombre": "Nome",
+        "Duracion": "Durata",
+        "Objetivos": "Obiettivi",
+        "Dimensiones": "Dimensioni",
+        "LabelImagen": "Per scaricare o generare PDF",
+        "VistaPreviaImagen": "Anteprima",
+        "Descripcion": "Descrizione",
+        "GenerarPDF": "Generare PDF",
+        "Descargar": "Scaricare",
+        "BorrarTrazos": "Cancellare i tratti",
+        "DescargarImagen": "Scaricare l'immagine",
+        "VistaPrevia": "ANTEPRIMA DELL'IMMAGINE",
+        "ColorTrazo": "COLORE DEL TRATTO: ",
+        "ColorLocal": "Colore della squadra di casa",
+        "ColorVisitante": "Colore della squadra ospite",
+        "EquipoLocal": "CASA",
+        "EquipoVisitante": "OSPITE",
+        "Materiales": "MATERIALI",
+        "BorrarTodo": "Cancellare tutto",
+        "ResetImagen": "Reset immagine"
     },
-    "TUTORIALES":{
-        "Tutoriales":"TUTORIALI",
-        "InformacionTutorial":"Video esplicativi per imparare come iniziare con lo strumento",
-        "VerYoutube":"Guarda su Youtube",
+    "TUTORIALES": {
+        "Tutoriales": "TUTORIALI",
+        "InformacionTutorial": "Video esplicativi per imparare come iniziare con lo strumento",
+        "VerYoutube": "Guarda su Youtube",
         "CrearMaterial": "CREAZIONE DI MATERIALI",
         "CrearMaterialDescripcion": "Clicca sul materiale che vogliamo posizionare nel campo, apparirà nella sezione Materiali e potrai trascinarlo nel campo",
         "CrearJugadores": "CREAZIONE DI GIOCATORI",
@@ -48,45 +48,45 @@
         "GenerarPDF": "GENERARE PDF",
         "GenerarPDFDescripcion": "Apriamo l'anteprima dell'immagine e avremo un pulsante rosso Genera PDF, che lo genererà includendo i dati inseriti nel modulo"
     },
-    "CONTACTO":{
-        "Contacto":"CONTATTO",
-        "LabelContacto":"Seguici sui social network e scrivici per qualsiasi domanda e suggerimento",
-        "Twitter":"Twitter",
-        "Youtube":"YouTube",
-        "DireccionEmail":"underdogtowin@gmail.com",
-        "ConsultaRapida":"Riferimento rapido",
-        "Nombre":"Nome",
-        "SegundoNombre":"Secondo nome",
-        "Apellidos":"Cognome",
-        "Email":"Email",
-        "Consulta":"Inchiesta",
-        "Enviar":"Spedire"
+    "CONTACTO": {
+        "Contacto": "CONTATTO",
+        "LabelContacto": "Seguici sui social network e scrivici per qualsiasi domanda e suggerimento",
+        "Twitter": "Twitter",
+        "Youtube": "YouTube",
+        "DireccionEmail": "underdogtowin@gmail.com",
+        "ConsultaRapida": "Riferimento rapido",
+        "Nombre": "Nome",
+        "SegundoNombre": "Secondo nome",
+        "Apellidos": "Cognome",
+        "Email": "Email",
+        "Consulta": "Inchiesta",
+        "Enviar": "Spedire"
     },
-    "ACERCADE":{
-        "QuienSoy":"Chi sono io?",
-        "InformacionPersonal":"Antonio José Mata Periáñez, nato l'11 agosto 1995 e sviluppatore di UnderdogToWin.",
-        "InformacionAcademica":"Tecnico junior nello sviluppo di applicazioni Web, allenatore di calcio (UEFA A) e giocatore per hobby",
-        "InformacionEntrenador":"Attualmente allenatore del Club Atlético de Madrid.",
-        "InformacionApp":"L'app UnderDogToWin è nata dal miglioramento della tecnologia messa nel calcio. Ti consente di scaricare l'attività completa con l'immagine, le spiegazioni e il tempo di completamento, oltre alla sola immagine, in modo che possa essere utilizzata in futuro per sessioni future o condivisa con i tuoi colleghi.",
-        "Mision":"La mia missione",
-        "Objetivo1":"Facilita sessioni di allenamento per gli amanti del calcio",
-        "Objetivo2":"Studia il comportamento delle squadre rivali con la lavagna",
-        "Objetivo3":"Analisi d'angolo",
-        "InformacionMision":"Portare uno strumento tecnologico agli enti tecnici e alle società calcistiche affinché possano sfoggiare il proprio talento in questo sport"
+    "ACERCADE": {
+        "QuienSoy": "Chi sono io?",
+        "InformacionPersonal": "Antonio José Mata Periáñez, nato l'11 agosto 1995 e sviluppatore di UnderdogToWin.",
+        "InformacionAcademica": "Tecnico junior nello sviluppo di applicazioni Web, allenatore di calcio (UEFA A) e giocatore per hobby",
+        "InformacionEntrenador": "Attualmente allenatore del Club Atlético de Madrid.",
+        "InformacionApp": "L'app UnderDogToWin è nata dal miglioramento della tecnologia messa nel calcio. Ti consente di scaricare l'attività completa con l'immagine, le spiegazioni e il tempo di completamento, oltre alla sola immagine, in modo che possa essere utilizzata in futuro per sessioni future o condivisa con i tuoi colleghi.",
+        "Mision": "La mia missione",
+        "Objetivo1": "Facilita sessioni di allenamento per gli amanti del calcio",
+        "Objetivo2": "Studia il comportamento delle squadre rivali con la lavagna",
+        "Objetivo3": "Analisi d'angolo",
+        "InformacionMision": "Portare uno strumento tecnologico agli enti tecnici e alle società calcistiche affinché possano sfoggiare il proprio talento in questo sport"
     },
-    "POLITICA":{
-        "Politica":"POLITICA SULLA RISERVATEZZA"
+    "POLITICA": {
+        "Politica": "POLITICA SULLA RISERVATEZZA"
     },
-    "AVISOS":{
-        "Avisos":"NOTE LEGALI"
+    "AVISOS": {
+        "Avisos": "NOTE LEGALI"
     },
-    "FOOTER":{
-        "Informacion":"Visita i nostri social network e tieniti aggiornato con l'app",
-        "Politica":"Politica sulla riservatezza",
-        "Avisos":"Note legali"
+    "FOOTER": {
+        "Informacion": "Visita i nostri social network e tieniti aggiornato con l'app",
+        "Politica": "Politica sulla riservatezza",
+        "Avisos": "Note legali"
     },
-    "ERROR":{
-        "Mensaje":"La pagina non esiste o è in manutenzione",
-        "Disculpa":"Ci dispiace per l'inconvenienza"
+    "ERROR": {
+        "Mensaje": "La pagina non esiste o è in manutenzione",
+        "Disculpa": "Ci dispiace per l'inconvenienza"
     }
 }

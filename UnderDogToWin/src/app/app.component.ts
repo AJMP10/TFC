@@ -1,5 +1,4 @@
 import { Component, Output } from '@angular/core';
-import { Router } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
@@ -7,13 +6,15 @@ import { TranslateService } from '@ngx-translate/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent{
+export class AppComponent {
 
-  constructor(private translate:TranslateService){
-   this.translate.setDefaultLang('es');
+  // Establecemos el idioma por defecto
+  constructor(private translate: TranslateService) {
+    this.translate.setDefaultLang('es');
   }
 
-  public selectLanguage(event:any){
+  // Método para cambiar el idioma
+  public selectLanguage(event: any) {
     this.translate.use(event.target.value);
   }
 

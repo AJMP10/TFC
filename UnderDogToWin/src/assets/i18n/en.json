@@ -1,40 +1,40 @@
 {
-    "NAVBAR":{
+    "NAVBAR": {
         "Sesiones": "Sessions",
         "Tutoriales": "Tutorials",
         "Contacto": "Contact",
         "AcercaDe": "About Me"
     },
-    "HOME":{
+    "HOME": {
         "Informacion": "Design your assignments and training sessions with us",
-        "SaberMas":"View More"
+        "SaberMas": "View More"
     },
-    "SESIONES":{
-        "Nombre":"Name",
-        "Duracion":"Duration",
-        "Objetivos":"Goals",
-        "Dimensiones":"Area",
-        "LabelImagen":"To download or generate PDF",
-        "VistaPreviaImagen":"Preview Image",
-        "Descripcion":"Description",
-        "GenerarPDF":"Generate PDF",
-        "Descargar":"Download",
-        "BorrarTrazos":"Erase scribbles",
-        "DescargarImagen":"Download image",
-        "VistaPrevia":"IMAGE PREVIEW",
-        "ColorTrazo":"COLOR SCRIBBLE: ",
-        "ColorLocal":"Home color",
-        "ColorVisitante":"Away color",
-        "EquipoLocal":"HOME",
-        "EquipoVisitante":"AWAY",
-        "Materiales":"MATERIALS",
-        "BorrarTodo":"Clear All",
-        "ResetImagen":"Reset image"
+    "SESIONES": {
+        "Nombre": "Name",
+        "Duracion": "Duration",
+        "Objetivos": "Goals",
+        "Dimensiones": "Area",
+        "LabelImagen": "To download or generate PDF",
+        "VistaPreviaImagen": "Preview Image",
+        "Descripcion": "Description",
+        "GenerarPDF": "Generate PDF",
+        "Descargar": "Download",
+        "BorrarTrazos": "Erase scribbles",
+        "DescargarImagen": "Download image",
+        "VistaPrevia": "IMAGE PREVIEW",
+        "ColorTrazo": "COLOR SCRIBBLE: ",
+        "ColorLocal": "Home color",
+        "ColorVisitante": "Away color",
+        "EquipoLocal": "HOME",
+        "EquipoVisitante": "AWAY",
+        "Materiales": "MATERIALS",
+        "BorrarTodo": "Clear All",
+        "ResetImagen": "Reset image"
     },
-    "TUTORIALES":{
-        "Tutoriales":"TUTORIALS",
-        "InformacionTutorial":"Explanatory videos to learn how to get started with the tool",
-        "VerYoutube":"View on Youtube",
+    "TUTORIALES": {
+        "Tutoriales": "TUTORIALS",
+        "InformacionTutorial": "Explanatory videos to learn how to get started with the tool",
+        "VerYoutube": "View on Youtube",
         "CrearMaterial": "CREATION OF MATERIALS",
         "CrearMaterialDescripcion": "Click on the material that we want to place in the field, it will appear in the Materials section and you can drag and drop it to the field",
         "CrearJugadores": "CREATION OF PLAYERS",
@@ -48,45 +48,45 @@
         "GenerarPDF": "GENERATE PDF",
         "GenerarPDFDescripcion": "We open the preview of the image and we will have a red Generate PDF button, which will generate it including the data entered in the form"
     },
-    "CONTACTO":{
-        "Contacto":"CONTACT",
-        "LabelContacto":"Follow us on our social media and contact us for any questions or suggestions",
-        "Twitter":"Twitter",
-        "Youtube":"YouTube",
-        "DireccionEmail":"underdogtowin@gmail.com",
-        "ConsultaRapida":"Quick question",
-        "Nombre":"First Name",
-        "SegundoNombre":"Last Name",
-        "Apellidos":"Surname",
-        "Email":"Email",
-        "Consulta":"Question",
-        "Enviar":"Send"
+    "CONTACTO": {
+        "Contacto": "CONTACT",
+        "LabelContacto": "Follow us on our social media and contact us for any questions or suggestions",
+        "Twitter": "Twitter",
+        "Youtube": "YouTube",
+        "DireccionEmail": "underdogtowin@gmail.com",
+        "ConsultaRapida": "Quick question",
+        "Nombre": "First Name",
+        "SegundoNombre": "Last Name",
+        "Apellidos": "Surname",
+        "Email": "Email",
+        "Consulta": "Question",
+        "Enviar": "Send"
     },
-    "ACERCADE":{
-        "QuienSoy":"Who am I?",
-        "InformacionPersonal":"Antonio José Mata Periáñez, born in August 11 in 1995 and UnderdogToWin developer.",
-        "InformacionAcademica":"Website developer, Soccer Coach (UEFA A) and player as a hobbie",
-        "InformacionEntrenador":"Now in Club Atlético de Madrid as a coach.",
-        "InformacionApp":"The app UnderDogToWin is born to improve soccer technology. You can download the full assignment with its image, explanations and the duration, as well as only the image, so that it can be used in the future for next sessions or to be shared with your colleagues.",
-        "Mision":"My own goal",
-        "Objetivo1":"To facilitate the realization of training sessions for soccer lovers.",
-        "Objetivo2":"To study rival teams performance with the whiteboard.",
-        "Objetivo3":"Corner analysis.",
-        "InformacionMision":"To bring a technological tool to managers and soccer clubs so that they can show off their talent on this sport."
+    "ACERCADE": {
+        "QuienSoy": "Who am I?",
+        "InformacionPersonal": "Antonio José Mata Periáñez, born in August 11 in 1995 and UnderdogToWin developer.",
+        "InformacionAcademica": "Website developer, Soccer Coach (UEFA A) and player as a hobbie",
+        "InformacionEntrenador": "Now in Club Atlético de Madrid as a coach.",
+        "InformacionApp": "The app UnderDogToWin is born to improve soccer technology. You can download the full assignment with its image, explanations and the duration, as well as only the image, so that it can be used in the future for next sessions or to be shared with your colleagues.",
+        "Mision": "My own goal",
+        "Objetivo1": "To facilitate the realization of training sessions for soccer lovers.",
+        "Objetivo2": "To study rival teams performance with the whiteboard.",
+        "Objetivo3": "Corner analysis.",
+        "InformacionMision": "To bring a technological tool to managers and soccer clubs so that they can show off their talent on this sport."
     },
-    "POLITICA":{
-        "Politica":"PRIVACY POLICY"
+    "POLITICA": {
+        "Politica": "PRIVACY POLICY"
     },
-    "AVISOS":{
-        "Avisos":"LEGAL NOTICES"
+    "AVISOS": {
+        "Avisos": "LEGAL NOTICES"
     },
-    "FOOTER":{
-        "Informacion":"Visit our social media and keep updated with our app",
-        "Politica":"Privacy Policy",
-        "Avisos":"Legal Notices"
+    "FOOTER": {
+        "Informacion": "Visit our social media and keep updated with our app",
+        "Politica": "Privacy Policy",
+        "Avisos": "Legal Notices"
     },
-    "ERROR":{
-        "Mensaje":"The website doesn't exist or keep in progress",
-        "Disculpa":"Sorry for the inconvenience"
+    "ERROR": {
+        "Mensaje": "The website doesn't exist or keep in progress",
+        "Disculpa": "Sorry for the inconvenience"
     }
 }
