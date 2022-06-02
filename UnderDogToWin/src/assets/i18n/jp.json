@@ -34,7 +34,19 @@
     "TUTORIALES":{
         "Tutoriales":"チュートリアル",
         "InformacionTutorial":"ツールの使用を開始する方法を学ぶための説明ビデオ",
-        "VerYoutube":"Youtubeで見る"
+        "VerYoutube":"Youtubeで見る",
+        "CrearMaterial": "材料の作成",
+        "CrearMaterialDescripcion": "フィールドに配置するマテリアルをクリックすると、[マテリアル]セクションに表示され、フィールドにドラッグアンドドロップできます。",
+        "CrearJugadores": "プレイヤーの作成",
+        "CrearJugadoresDescripcion": "配置するプレーヤー（この場合はローカルまたはビジター）をクリックすると、上部のセクションに表示され、フィールドにドラッグアンドドロップできます。",
+        "CrearTrazo": "パスの作成",
+        "CrearTrazoDescripcion": "プレイフィールドの任意の場所をクリックしてから、マウスを任意の方向に動かして、目的の線を形成します。 描画を停止するには、パスの端をクリックします",
+        "Borrar": "消去",
+        "BorrarDescripcion": "消去するには2つの方法があります。ストロークのみ、またはすべて（ストロークと要素）です。対応する赤いボタンを押すだけです。",
+        "DescargarActualizarImagen": "画像をダウンロードまたは更新する",
+        "DescargarActualizarImagenDescripcion": "プレビューをクリックして画像を生成すると、直前に変更を加えたりダウンロードしたりしてコンピュータに保存したい場合に備えて、ボタンを使用して画像を更新することができます。",
+        "GenerarPDF": "PDFを生成する",
+        "GenerarPDFDescripcion": "画像のプレビューを開くと、フォームに入力されたデータを含む画像を生成する赤い[PDFの生成]ボタンが表示されます。"
     },
     "CONTACTO":{
         "Contacto":"コンタクト",

@@ -1,7 +1,8 @@
-.container-fluid{
+.container-fluid {
     padding: 0;
     margin: 0;
-    .image-tutorial{
+
+    .image-tutorial {
         margin: 0;
         width: 100%;
         background-image: url('/assets/hooligans/hooligans_benfica.jpg');
@@ -9,20 +10,23 @@
         background-size: cover;
         opacity: 0.6;
         padding: 60px 0px;
-        .title-tutorial{
+
+        .title-tutorial {
             color: white;
             text-align: center;
             font-size: 60px;
             text-shadow: 0 0 0.2em black, 0 0 0.2em #FF4C4C;
         }
-        .info-tutorial{
+
+        .info-tutorial {
             color: white;
             text-align: center;
             font-size: 25px;
             text-shadow: 0 0 0.2em black, 0 0 0.2em #FF4C4C;
         }
     }
-    .body-cards{
+
+    .body-cards {
         padding: 0;
         margin-top: 100px;
         margin-bottom: 40px;
@@ -30,12 +34,24 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
-       .card-body{
-           display: grid;
-           place-content: center;
-           .arrow{
-               align-items: center;
-           }
-       }
+
+        .card-body {
+            display: grid;
+            place-content: center;
+
+            .card-title{
+                margin: 0;
+            }
+
+            .arrow {
+                align-items: center;
+            }
+        }
+
+        .list-group-flush {
+            .list-group-item {
+                text-align: justify;
+            }
+        }
     }
 }

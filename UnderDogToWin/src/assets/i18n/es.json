@@ -1,80 +1,92 @@
 {
-    "NAVBAR":{
+    "NAVBAR": {
         "Sesiones": "Sesiones",
         "Tutoriales": "Tutoriales",
         "Contacto": "Contacto",
         "AcercaDe": "Acerca de"
     },
-    "HOME":{
+    "HOME": {
         "Informacion": "Diseña tus tareas y sesiones de entrenamiento con nosotros",
-        "SaberMas":"Saber más"
+        "SaberMas": "Saber más"
     },
-    "SESIONES":{
-        "Nombre":"Nombre",
-        "Duracion":"Duración",
-        "Objetivos":"Objetivos",
-        "Dimensiones":"Dimensiones",
-        "LabelImagen":"Para descargar o generar PDF",
-        "VistaPreviaImagen":"Vista previa",
-        "Descripcion":"Descripción",
-        "GenerarPDF":"Generar PDF",
-        "Descargar":"Descargar",
-        "BorrarTrazos":"Borrar trazos",
-        "DescargarImagen":"Descargar imagen",
-        "VistaPrevia":"VISTA PREVIA IMAGEN",
-        "ColorTrazo":"COLOR TRAZO: ",
-        "ColorLocal":"Color equipo Local",
-        "ColorVisitante":"Color equipo Visitante",
-        "EquipoLocal":"LOCAL",
-        "EquipoVisitante":"VISITANTE",
-        "Materiales":"MATERIALES",
-        "BorrarTodo":"Borrar todo",
-        "ResetImagen":"Actualizar imagen"
+    "SESIONES": {
+        "Nombre": "Nombre",
+        "Duracion": "Duración",
+        "Objetivos": "Objetivos",
+        "Dimensiones": "Dimensiones",
+        "LabelImagen": "Para descargar o generar PDF",
+        "VistaPreviaImagen": "Vista previa",
+        "Descripcion": "Descripción",
+        "GenerarPDF": "Generar PDF",
+        "Descargar": "Descargar",
+        "BorrarTrazos": "Borrar trazos",
+        "DescargarImagen": "Descargar imagen",
+        "VistaPrevia": "VISTA PREVIA IMAGEN",
+        "ColorTrazo": "COLOR TRAZO: ",
+        "ColorLocal": "Color equipo Local",
+        "ColorVisitante": "Color equipo Visitante",
+        "EquipoLocal": "LOCAL",
+        "EquipoVisitante": "VISITANTE",
+        "Materiales": "MATERIALES",
+        "BorrarTodo": "Borrar todo",
+        "ResetImagen": "Actualizar imagen"
     },
-    "TUTORIALES":{
-        "Tutoriales":"TUTORIALES",
-        "InformacionTutorial":"Vídeos explicativos para aprender a iniciarse en la herramienta",
-        "VerYoutube":"Ver en Youtube"
+    "TUTORIALES": {
+        "Tutoriales": "TUTORIALES",
+        "InformacionTutorial": "Vídeos explicativos para aprender a iniciarse en la herramienta",
+        "VerYoutube": "Ver en Youtube",
+        "CrearMaterial": "CREACIÓN DE MATERIALES",
+        "CrearMaterialDescripcion": "Pincha sobre el material que queremos colocar en el campo, aparecerá en la sección de Materiales y lo podrás arrastrar y soltar al campo",
+        "CrearJugadores": "CREACIÓN DE JUGADORES",
+        "CrearJugadoresDescripcion": "Pincha sobre el jugador que quieras colocar, en este caso, local o visitante, aparecerá en su sección en la parte superior y podrás arrastrarlo y soltarlo en el campo",
+        "CrearTrazo": "CREACIÓN DE TRAZOS",
+        "CrearTrazoDescripcion": "Haga click en cualquier parte del terreno de juego y después mueve el ratón en cualquier dirección formando la línea que desea. Para parar de dibujar, haga click en el fin del trazo",
+        "Borrar": "BORRAR",
+        "BorrarDescripcion": "Hay dos formas para borrar, sólo los trazos o todo (trazos y elementos), sólo deberá pulsar el botón rojo correspondiente",
+        "DescargarActualizarImagen": "DESCARGAR O ACTUALIZAR IMAGEN",
+        "DescargarActualizarImagenDescripcion": "Cuando genero la imagen pulsando en Vista Previa, tendremos la posibilidad de actualizar la imagen mediante un botón, por si quiere realizar algún cambio de última hora o de descargarla, para guardarla en su ordenador",
+        "GenerarPDF": "GENERAR PDF",
+        "GenerarPDFDescripcion": "Realizamos la apertura de la vista previa de la imagen y dispondremos de un botón rojo de Generar PDF, que lo generá incluyendo los datos introducidos en el formulario"
     },
-    "CONTACTO":{
-        "Contacto":"CONTACTO",
-        "LabelContacto":"Síguenos en redes sociales y escríbenos para cualquier consulta y sugerencia",
-        "Twitter":"Twitter",
-        "Youtube":"YouTube",
-        "DireccionEmail":"underdogtowin@gmail.com",
-        "ConsultaRapida":"Consulta rápida",
-        "Nombre":"Nombre",
-        "SegundoNombre":"Primer apellido",
-        "Apellidos":"Segundo apellido",
-        "Email":"Email",
-        "Consulta":"Consulta",
-        "Enviar":"Enviar"
+    "CONTACTO": {
+        "Contacto": "CONTACTO",
+        "LabelContacto": "Síguenos en redes sociales y escríbenos para cualquier consulta y sugerencia",
+        "Twitter": "Twitter",
+        "Youtube": "YouTube",
+        "DireccionEmail": "underdogtowin@gmail.com",
+        "ConsultaRapida": "Consulta rápida",
+        "Nombre": "Nombre",
+        "SegundoNombre": "Primer apellido",
+        "Apellidos": "Segundo apellido",
+        "Email": "Email",
+        "Consulta": "Consulta",
+        "Enviar": "Enviar"
     },
-    "ACERCADE":{
-        "QuienSoy":"¿Quién soy?",
-        "InformacionPersonal":"Antonio José Mata Periáñez, nacido el 11 de Agosto de 1995 y desarrollador de UnderdogToWin.",
-        "InformacionAcademica":"Técnico Superior en Desarrollo de Aplicaciones Web, Entrenador de Fútbol (UEFA A) y jugador de hobbie",
-        "InformacionEntrenador":"Actualmente entrenador en el Club Atlético de Madrid.",
-        "InformacionApp":"La app UnderDogToWin nace de mejorar la tecnología puesta en el fútbol. Permite descargar la tarea completa con la imagen, las explicaciones y el tiempo de realización, así como solamente la imagen, para que pueda ser utilizada en el futuro para próximas sesiones o compartirla con tus compañeros deprofesión",
-        "Mision":"Mi misión",
-        "Objetivo1":"Facilitar la realización de sesiones de entrenamiento para los amantes del fútbol",
-        "Objetivo2":"Estudiar comportamientos de los equipos rivales con la pizarra",
-        "Objetivo3":"Análisis de ABP",
-        "InformacionMision":"Acercar una herramienta tecnológica a cuerpos técnicos y clubes de fútbol para que desprendan su talento sobre este deporte"
+    "ACERCADE": {
+        "QuienSoy": "¿Quién soy?",
+        "InformacionPersonal": "Antonio José Mata Periáñez, nacido el 11 de Agosto de 1995 y desarrollador de UnderdogToWin.",
+        "InformacionAcademica": "Técnico Superior en Desarrollo de Aplicaciones Web, Entrenador de Fútbol (UEFA A) y jugador de hobbie",
+        "InformacionEntrenador": "Actualmente entrenador en el Club Atlético de Madrid.",
+        "InformacionApp": "La app UnderDogToWin nace de mejorar la tecnología puesta en el fútbol. Permite descargar la tarea completa con la imagen, las explicaciones y el tiempo de realización, así como solamente la imagen, para que pueda ser utilizada en el futuro para próximas sesiones o compartirla con tus compañeros deprofesión",
+        "Mision": "Mi misión",
+        "Objetivo1": "Facilitar la realización de sesiones de entrenamiento para los amantes del fútbol",
+        "Objetivo2": "Estudiar comportamientos de los equipos rivales con la pizarra",
+        "Objetivo3": "Análisis de ABP",
+        "InformacionMision": "Acercar una herramienta tecnológica a cuerpos técnicos y clubes de fútbol para que desprendan su talento sobre este deporte"
     },
-    "POLITICA":{
-        "Politica":"POLÍTICA DE PRIVACIDAD"
+    "POLITICA": {
+        "Politica": "POLÍTICA DE PRIVACIDAD"
     },
-    "AVISOS":{
-        "Avisos":"AVISOS LEGALES"
+    "AVISOS": {
+        "Avisos": "AVISOS LEGALES"
     },
-    "FOOTER":{
-        "Informacion":"Visita nuestras redes sociales y ponte al día de la app",
-        "Politica":"Política de privacidad",
-        "Avisos":"Avisos legales"
+    "FOOTER": {
+        "Informacion": "Visita nuestras redes sociales y ponte al día de la app",
+        "Politica": "Política de privacidad",
+        "Avisos": "Avisos legales"
     },
-    "ERROR":{
-        "Mensaje":"La página no existe o está en mantenimiento",
-        "Disculpa":"Disculpen las molestias"
+    "ERROR": {
+        "Mensaje": "La página no existe o está en mantenimiento",
+        "Disculpa": "Disculpen las molestias"
     }
 }

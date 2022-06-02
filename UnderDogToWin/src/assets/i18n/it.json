@@ -34,7 +34,19 @@
     "TUTORIALES":{
         "Tutoriales":"TUTORIALI",
         "InformacionTutorial":"Video esplicativi per imparare come iniziare con lo strumento",
-        "VerYoutube":"Guarda su Youtube"
+        "VerYoutube":"Guarda su Youtube",
+        "CrearMaterial": "CREAZIONE DI MATERIALI",
+        "CrearMaterialDescripcion": "Clicca sul materiale che vogliamo posizionare nel campo, apparirà nella sezione Materiali e potrai trascinarlo nel campo",
+        "CrearJugadores": "CREAZIONE DI GIOCATORI",
+        "CrearJugadoresDescripcion": "Clicca sul giocatore che vuoi posizionare, in questo caso, locale o visitatore, apparirà nella sua sezione in alto e potrai trascinarlo e rilasciarlo sul campo",
+        "CrearTrazo": "CREARE PERCORSI",
+        "CrearTrazoDescripcion": "Fare clic in un punto qualsiasi del campo di gioco e quindi spostare il mouse in qualsiasi direzione formando la linea desiderata. Per interrompere il disegno, fare clic sulla fine del percorso",
+        "Borrar": "CANCELLARE",
+        "BorrarDescripcion": "Ci sono due modi per cancellare, solo i tratti o tutti (tratti ed elementi), devi solo premere il pulsante rosso corrispondente",
+        "DescargarActualizarImagen": "SCARICA O AGGIORNA L'IMMAGINE",
+        "DescargarActualizarImagenDescripcion": "Quando genererò l'immagine facendo clic su Anteprima, avremo la possibilità di aggiornare l'immagine tramite un pulsante, nel caso tu voglia apportare modifiche dell'ultimo minuto o scaricarla, salvarla sul tuo computer",
+        "GenerarPDF": "GENERARE PDF",
+        "GenerarPDFDescripcion": "Apriamo l'anteprima dell'immagine e avremo un pulsante rosso Genera PDF, che lo genererà includendo i dati inseriti nel modulo"
     },
     "CONTACTO":{
         "Contacto":"CONTATTO",

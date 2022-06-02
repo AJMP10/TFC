@@ -34,7 +34,19 @@
     "TUTORIALES":{
         "Tutoriales":"TUTORIALS",
         "InformacionTutorial":"Explanatory videos to learn how to get started with the tool",
-        "VerYoutube":"View on Youtube"
+        "VerYoutube":"View on Youtube",
+        "CrearMaterial": "CREATION OF MATERIALS",
+        "CrearMaterialDescripcion": "Click on the material that we want to place in the field, it will appear in the Materials section and you can drag and drop it to the field",
+        "CrearJugadores": "CREATION OF PLAYERS",
+        "CrearJugadoresDescripcion": "Click on the player you want to place, in this case, local or visitor, it will appear in its section at the top and you can drag and drop it on the field",
+        "CrearTrazo": "CREATING PATHS",
+        "CrearTrazoDescripcion": "Click anywhere on the playing field and then move the mouse in any direction forming the line you want. To stop drawing, click on the end of the path",
+        "Borrar": "ERASING",
+        "BorrarDescripcion": "There are two ways to erase, only the strokes or all (strokes and elements), you just have to press the corresponding red button",
+        "DescargarActualizarImagen": "DOWNLOAD OR UPDATE IMAGE",
+        "DescargarActualizarImagenDescripcion": "When I generate the image by clicking on Preview, we will have the possibility to update the image through a button, in case you want to make any last minute changes or to download it, to save it on your computer",
+        "GenerarPDF": "GENERATE PDF",
+        "GenerarPDFDescripcion": "We open the preview of the image and we will have a red Generate PDF button, which will generate it including the data entered in the form"
     },
     "CONTACTO":{
         "Contacto":"CONTACT",
