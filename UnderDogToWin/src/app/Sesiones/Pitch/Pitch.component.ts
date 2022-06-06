@@ -1,4 +1,4 @@
-import { AfterViewInit, Component, ElementRef, HostListener, Input, OnInit, Renderer2, ViewChild } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, HostListener, OnInit, Renderer2, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
 import { Location } from '@angular/common';
 
